@@ -1,0 +1,22 @@
+# React / frontend
+# Build output
+/build
+/node_modules
+
+# Env files (para front si usás)
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS generated files
+.DS_Store
+Thumbs.db
