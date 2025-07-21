@@ -65,6 +65,10 @@ app.get('/api/health', (req, res) => {
   });
 });
 
+app.get('/', (req, res) => {
+  res.send('¡El servidor está funcionando!');
+});
+
 // Manejo de errores...
 // ...
 

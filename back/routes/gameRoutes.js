@@ -1,11 +1,24 @@
 const express = require('express');
 const router = express.Router();
+const Game = require('../models/Game');
 const gameController = require('../controllers/gameController');
 
-// Ruta para importar juegos (opcional, podría ser POST /games/import)
-router.post('/import', gameController.importGames);
+// Nueva ruta GET para listar juegos
+router.get('/', async (req, res) => {
+  try {
+    const games = await Game.find().limit(10);
+    res.json({
+      success: true,
+      count: games.length,
+      games
+    });
+  } catch (error) {
+    res.status(500).json({ success: false, error: error.message });
+  }
+});
 
-// Ruta para obtener recomendaciones
+// Rutas existentes
+router.post('/import', gameController.importGames);
 router.post('/recommendations', gameController.getRecommendations);
 
 module.exports = router;

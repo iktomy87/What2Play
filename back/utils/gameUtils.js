@@ -1,11 +1,12 @@
 // utils/gameUtils.js
 const extractRequirements = (apiGame) => {
-  // Implementación existente de extractRequirements
-  return {
+  // Extrae los requisitos manteniendo el formato original
+  const requirements = {
     cpu: apiGame.platforms?.[0]?.requirements?.minimum || "Desconocido",
     gpu: apiGame.platforms?.[0]?.requirements?.minimum || "Desconocido",
-    ram: "8 GB" // Valor por defecto
+    ram: apiGame.platforms?.[0]?.requirements?.minimum?.match(/\d+\s?GB/i)?.[0] || "8GB" // Mantiene formato "XGB"
   };
+  return requirements;
 };
 
 const isCompatible = (userSpecs, gameRequirements) => {

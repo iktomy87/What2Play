@@ -7,7 +7,7 @@ const gameSchema = new mongoose.Schema({
   requirements: {
     cpu: String,
     gpu: String,
-    ram: Number,
+    ram: { type: String },
   }
 });
 
