@@ -5,9 +5,9 @@ const gameSchema = new mongoose.Schema({
   genre: [String],
   description: String,
   requirements: {
-    cpu: String,
-    gpu: String,
-    ram: { type: String },
+    cpu: { type: String, default: 'Desconocido' },
+    gpu: { type: String, default: 'Desconocido' },
+    ram: { type: String, default: '8GB' }
   }
 });
 
