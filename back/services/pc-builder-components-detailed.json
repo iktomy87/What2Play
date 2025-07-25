@@ -1,0 +1,1798 @@
+{
+  "cpus": [
+    {
+      "tipo": "cpus",
+      "nombre": "Intel Core i5-750 2.66 GHz 4-Core Processor",
+      "url": "https://pc-builder.io/cpu/amd-ryzen-5-7600x-p1311",
+      "imagen": "https://pc-builder.io/images/cpu/1665830715_12916.jpg",
+      "alt_text": "Intel Core i5-750 2.66 GHz 4-Core Processor",
+      "rating": "5.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "AMD FX-4100 4.0 GHz 4-Core Processor",
+      "url": "https://pc-builder.io/cpu/amd-ryzen-5-7600x-p1311",
+      "imagen": "https://pc-builder.io/images/cpu/1665830715_12916.jpg",
+      "alt_text": "AMD FX-4100 4.0 GHz 4-Core Processor",
+      "rating": "5.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "Intel Core i7-4790K 4.0Ghz 4-Core Processor",
+      "url": "https://pc-builder.io/cpu/amd-ryzen-5-7600x-p1311",
+      "imagen": "https://pc-builder.io/images/cpu/1665830715_12916.jpg",
+      "alt_text": "Intel Core i7-4790K 4.0Ghz 4-Core Processor",
+      "rating": "5.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "AMD Ryzen 5 7600X 4.7 GHz 6-Core Processor",
+      "url": "https://pc-builder.io/cpu/amd-ryzen-5-7600x-p1311",
+      "imagen": "https://pc-builder.io/images/cpu/1665830715_12916.jpg",
+      "alt_text": "AMD Ryzen 5 7600X 4.7 GHz 6-Core Processor",
+      "rating": "5.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "AMD Ryzen 7 9800X3D 4.7 GHz 8-Core Processor",
+      "url": "https://pc-builder.io/cpu/amd-ryzen-7-9800x3d-p62288",
+      "imagen": "https://pc-builder.io/images/cpu/1732188544_35742.jpg",
+      "alt_text": "AMD Ryzen 7 9800X3D 4.7 GHz 8-Core Processor",
+      "rating": "5.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "AMD Ryzen 7 7800X3D 4.2 GHz 8-Core Processor",
+      "url": "https://pc-builder.io/cpu/amd-ryzen-7-7800x3d-p52516",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "AMD Ryzen 7 7800X3D 4.2 GHz 8-Core Processor",
+      "rating": "4.9",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "AMD Ryzen 5 5600X 3.7 GHz 6-Core Processor",
+      "url": "https://pc-builder.io/cpu/amd-ryzen-5-5600x-p870",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "AMD Ryzen 5 5600X 3.7 GHz 6-Core Processor",
+      "rating": "4.9",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "AMD Ryzen 7 7700X 4.5 GHz 8-Core Processor",
+      "url": "https://pc-builder.io/cpu/amd-ryzen-7-7700x-p1310",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "AMD Ryzen 7 7700X 4.5 GHz 8-Core Processor",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "AMD Ryzen 5 5500 3.6 GHz 6-Core Processor",
+      "url": "https://pc-builder.io/cpu/amd-ryzen-5-5500-p1307",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "AMD Ryzen 5 5500 3.6 GHz 6-Core Processor",
+      "rating": "4.8",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "AMD Ryzen 7 9700X 3.8 GHz 8-Core Processor",
+      "url": "https://pc-builder.io/cpu/amd-ryzen-7-9700x-p61576",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "AMD Ryzen 7 9700X 3.8 GHz 8-Core Processor",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "Intel Core i9-14900K 3.2 GHz 24-Core Processor",
+      "url": "https://pc-builder.io/cpu/intel-core-i9-14900k-p55319",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Intel Core i9-14900K 3.2 GHz 24-Core Processor",
+      "rating": "4.9",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "AMD Ryzen 5 7600 3.8 GHz 6-Core Processor",
+      "url": "https://pc-builder.io/cpu/amd-ryzen-5-7600-p51620",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "AMD Ryzen 5 7600 3.8 GHz 6-Core Processor",
+      "rating": "4.8",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "AMD Ryzen 7 5800X 3.8 GHz 8-Core Processor",
+      "url": "https://pc-builder.io/cpu/amd-ryzen-7-5800x-p1077",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "AMD Ryzen 7 5800X 3.8 GHz 8-Core Processor",
+      "rating": "4.8",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "AMD Ryzen 7 5700X3D 3 GHz 8-Core Processor",
+      "url": "https://pc-builder.io/cpu/amd-ryzen-7-5700x3d-p57121",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "AMD Ryzen 7 5700X3D 3 GHz 8-Core Processor",
+      "rating": "5.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "Intel Core i5-12400F 2.5 GHz 6-Core Processor",
+      "url": "https://pc-builder.io/cpu/intel-core-i5-12400f-p1281",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Intel Core i5-12400F 2.5 GHz 6-Core Processor",
+      "rating": "4.9",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "AMD Ryzen 5 5600 3.5 GHz 6-Core Processor",
+      "url": "https://pc-builder.io/cpu/amd-ryzen-5-5600-p1303",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "AMD Ryzen 5 5600 3.5 GHz 6-Core Processor",
+      "rating": "5.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "AMD Ryzen 9 9950X 4.3 GHz 16-Core Processor",
+      "url": "https://pc-builder.io/cpu/amd-ryzen-9-9950x-p61575",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "AMD Ryzen 9 9950X 4.3 GHz 16-Core Processor",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "Intel Core i7-14700K 3.4 GHz 20-Core Processor",
+      "url": "https://pc-builder.io/cpu/intel-core-i7-14700k-p55320",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Intel Core i7-14700K 3.4 GHz 20-Core Processor",
+      "rating": "5.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "AMD Ryzen 7 5700X 3.4 GHz 8-Core Processor",
+      "url": "https://pc-builder.io/cpu/amd-ryzen-7-5700x-p1305",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "AMD Ryzen 7 5700X 3.4 GHz 8-Core Processor",
+      "rating": "5.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "AMD Ryzen 5 9600X 3.9 GHz 6-Core Processor",
+      "url": "https://pc-builder.io/cpu/amd-ryzen-5-9600x-p61577",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "AMD Ryzen 5 9600X 3.9 GHz 6-Core Processor",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "AMD Ryzen 9 7900X 4.7 GHz 12-Core Processor",
+      "url": "https://pc-builder.io/cpu/amd-ryzen-9-7900x-p1312",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "AMD Ryzen 9 7900X 4.7 GHz 12-Core Processor",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "AMD Ryzen 5 3600 3.6 GHz 6-Core Processor",
+      "url": "https://pc-builder.io/cpu/amd-ryzen-5-3600-p192",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "AMD Ryzen 5 3600 3.6 GHz 6-Core Processor",
+      "rating": "4.9",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "Intel Core i7-12700K 3.6 GHz 12-Core Processor",
+      "url": "https://pc-builder.io/cpu/intel-core-i7-12700k-p1299",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Intel Core i7-12700K 3.6 GHz 12-Core Processor",
+      "rating": "4.9",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "AMD Ryzen 9 7950X3D 4.2 GHz 16-Core Processor",
+      "url": "https://pc-builder.io/cpu/amd-ryzen-9-7950x3d-p51630",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "AMD Ryzen 9 7950X3D 4.2 GHz 16-Core Processor",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "AMD Ryzen 9 9900X 4.4 GHz 12-Core Processor",
+      "url": "https://pc-builder.io/cpu/amd-ryzen-9-9900x-p61578",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "AMD Ryzen 9 9900X 4.4 GHz 12-Core Processor",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "AMD Ryzen 5 7500F 3.7 GHz 6-Core Processor",
+      "url": "https://pc-builder.io/cpu/amd-ryzen-5-7500f-p52519",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "AMD Ryzen 5 7500F 3.7 GHz 6-Core Processor",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "Intel Core i7-12700KF 3.6 GHz 12-Core Processor",
+      "url": "https://pc-builder.io/cpu/intel-core-i7-12700kf-p1297",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Intel Core i7-12700KF 3.6 GHz 12-Core Processor",
+      "rating": "5.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "AMD Ryzen 9 5900X 3.7 GHz 12-Core Processor",
+      "url": "https://pc-builder.io/cpu/amd-ryzen-9-5900x-p436",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "AMD Ryzen 9 5900X 3.7 GHz 12-Core Processor",
+      "rating": "4.9",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "AMD Ryzen 7 7700 3.6 GHz 8-Core Processor",
+      "url": "https://pc-builder.io/cpu/amd-ryzen-7-7700-p51623",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "AMD Ryzen 7 7700 3.6 GHz 8-Core Processor",
+      "rating": "5.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "AMD Ryzen 7 3700X 3.6 GHz 8-Core Processor",
+      "url": "https://pc-builder.io/cpu/amd-ryzen-7-3700x-p544",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "AMD Ryzen 7 3700X 3.6 GHz 8-Core Processor",
+      "rating": "4.9",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "Intel Core i5-12600KF 3.7 GHz 10-Core Processor",
+      "url": "https://pc-builder.io/cpu/intel-core-i5-12600kf-p1298",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Intel Core i5-12600KF 3.7 GHz 10-Core Processor",
+      "rating": "4.9",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "Intel Core i5-12600K 3.7 GHz 10-Core Processor",
+      "url": "https://pc-builder.io/cpu/intel-core-i5-12600k-p1300",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Intel Core i5-12600K 3.7 GHz 10-Core Processor",
+      "rating": "5.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "Intel Core i9-12900K 3.2 GHz 16-Core Processor",
+      "url": "https://pc-builder.io/cpu/intel-core-i9-12900k-p1284",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Intel Core i9-12900K 3.2 GHz 16-Core Processor",
+      "rating": "4.9",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "AMD Ryzen 5 8500G 4.1 GHz 6-Core Processor",
+      "url": "https://pc-builder.io/cpu/amd-ryzen-5-8500g-p57119",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "AMD Ryzen 5 8500G 4.1 GHz 6-Core Processor",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "AMD Ryzen 5 5600G 3.9 GHz 6-Core Processor",
+      "url": "https://pc-builder.io/cpu/amd-ryzen-5-5600g-p1292",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "AMD Ryzen 5 5600G 3.9 GHz 6-Core Processor",
+      "rating": "4.8",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "Intel Core i3-12100F 3.3 GHz Quad-Core Processor",
+      "url": "https://pc-builder.io/cpu/intel-core-i3-12100f-p1291",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Intel Core i3-12100F 3.3 GHz Quad-Core Processor",
+      "rating": "5.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "Intel Core i5-14600K 3.5 GHz 14-Core Processor",
+      "url": "https://pc-builder.io/cpu/intel-core-i5-14600k-p55323",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Intel Core i5-14600K 3.5 GHz 14-Core Processor",
+      "rating": "4.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "Intel Core i7-13700K 3.4 GHz 16-Core Processor",
+      "url": "https://pc-builder.io/cpu/intel-core-i7-13700k-p1322",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Intel Core i7-13700K 3.4 GHz 16-Core Processor",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "AMD Ryzen 9 7950X 4.5 GHz 16-Core Processor",
+      "url": "https://pc-builder.io/cpu/amd-ryzen-9-7950x-p1309",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "AMD Ryzen 9 7950X 4.5 GHz 16-Core Processor",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "AMD Ryzen 7 5800X3D 3.4 GHz 8-Core Processor",
+      "url": "https://pc-builder.io/cpu/amd-ryzen-7-5800x3d-p1304",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "AMD Ryzen 7 5800X3D 3.4 GHz 8-Core Processor",
+      "rating": "4.9",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "Intel Core Ultra 9 285K 3.7 GHz 24-Core Processor",
+      "url": "https://pc-builder.io/cpu/intel-core-ultra-9-285k-p62289",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Intel Core Ultra 9 285K 3.7 GHz 24-Core Processor",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "Intel Core i7-14700KF 3.4 GHz 20-Core Processor",
+      "url": "https://pc-builder.io/cpu/intel-core-i7-14700kf-p55321",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Intel Core i7-14700KF 3.4 GHz 20-Core Processor",
+      "rating": "5.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "Intel Core i5-14600KF 3.5 GHz 14-Core Processor",
+      "url": "https://pc-builder.io/cpu/intel-core-i5-14600kf-p55324",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Intel Core i5-14600KF 3.5 GHz 14-Core Processor",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "AMD Ryzen 5 4500 3.6 GHz 6-Core Processor",
+      "url": "https://pc-builder.io/cpu/amd-ryzen-5-4500-p1308",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "AMD Ryzen 5 4500 3.6 GHz 6-Core Processor",
+      "rating": "5.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "Intel Core i5-13400F 2.5 GHz 10-Core Processor",
+      "url": "https://pc-builder.io/cpu/intel-core-i5-13400f-p51621",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Intel Core i5-13400F 2.5 GHz 10-Core Processor",
+      "rating": "5.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "AMD Ryzen 5 7600X3D 4.1 GHz 6-Core Processor",
+      "url": "https://pc-builder.io/cpu/amd-ryzen-5-7600x3d-p62290",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "AMD Ryzen 5 7600X3D 4.1 GHz 6-Core Processor",
+      "rating": "5.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "Intel Core i5-14400F 2.5 GHz 10-Core Processor",
+      "url": "https://pc-builder.io/cpu/intel-core-i5-14400f-p57123",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Intel Core i5-14400F 2.5 GHz 10-Core Processor",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "AMD Ryzen 9 5950X 3.4 GHz 16-Core Processor",
+      "url": "https://pc-builder.io/cpu/amd-ryzen-9-5950x-p552",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "AMD Ryzen 9 5950X 3.4 GHz 16-Core Processor",
+      "rating": "5.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "Intel Core Ultra 7 265K 3.9 GHz 20-Core Processor",
+      "url": "https://pc-builder.io/cpu/intel-core-ultra-7-265k-p62291",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Intel Core Ultra 7 265K 3.9 GHz 20-Core Processor",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "AMD Ryzen 5 8600G 4.3 GHz 6-Core Processor",
+      "url": "https://pc-builder.io/cpu/amd-ryzen-5-8600g-p57122",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "AMD Ryzen 5 8600G 4.3 GHz 6-Core Processor",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "AMD Ryzen 7 5700G 3.8 GHz 8-Core Processor",
+      "url": "https://pc-builder.io/cpu/amd-ryzen-7-5700g-p1288",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "AMD Ryzen 7 5700G 3.8 GHz 8-Core Processor",
+      "rating": "4.9",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "Intel Core i9-14900KF 3.2 GHz 24-Core Processor",
+      "url": "https://pc-builder.io/cpu/intel-core-i9-14900kf-p55322",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Intel Core i9-14900KF 3.2 GHz 24-Core Processor",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "AMD Threadripper 3990X 2.9 GHz 64-Core Processor",
+      "url": "https://pc-builder.io/cpu/amd-threadripper-3990x-p419",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "AMD Threadripper 3990X 2.9 GHz 64-Core Processor",
+      "rating": "5.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "Intel Core i5-13600K 3.5 GHz 14-Core Processor",
+      "url": "https://pc-builder.io/cpu/intel-core-i5-13600k-p1320",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Intel Core i5-13600K 3.5 GHz 14-Core Processor",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "AMD Ryzen 7 8700G 4.2 GHz 8-Core Processor",
+      "url": "https://pc-builder.io/cpu/amd-ryzen-7-8700g-p57120",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "AMD Ryzen 7 8700G 4.2 GHz 8-Core Processor",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "AMD Ryzen 5 8400F 4.2 GHz 6-Core Processor",
+      "url": "https://pc-builder.io/cpu/amd-ryzen-5-8400f-p60298",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "AMD Ryzen 5 8400F 4.2 GHz 6-Core Processor",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "AMD Ryzen 9 7900X3D 4.4 GHz 12-Core Processor",
+      "url": "https://pc-builder.io/cpu/amd-ryzen-9-7900x3d-p51632",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "AMD Ryzen 9 7900X3D 4.4 GHz 12-Core Processor",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "Intel Core i9-14900KS 3.2 GHz 24-Core Processor",
+      "url": "https://pc-builder.io/cpu/intel-core-i9-14900ks-p60296",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Intel Core i9-14900KS 3.2 GHz 24-Core Processor",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "AMD Ryzen 7 5700 3.7 GHz 8-Core Processor",
+      "url": "https://pc-builder.io/cpu/amd-ryzen-7-5700-p57134",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "AMD Ryzen 7 5700 3.7 GHz 8-Core Processor",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "Intel Xeon E5-2690 V4 2.6 GHz 14-Core Processor",
+      "url": "https://pc-builder.io/cpu/intel-xeon-e5-2690-v4-p850",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Intel Xeon E5-2690 V4 2.6 GHz 14-Core Processor",
+      "rating": "5.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "AMD Ryzen 5 7500F 3.7 GHz 6-Core OEM/Tray Processor",
+      "url": "https://pc-builder.io/cpu/amd-ryzen-5-7500f-p60297",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "AMD Ryzen 5 7500F 3.7 GHz 6-Core OEM/Tray Processor",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "AMD Ryzen 5 2600 3.4 GHz 6-Core Processor",
+      "url": "https://pc-builder.io/cpu/amd-ryzen-5-2600-p935",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "AMD Ryzen 5 2600 3.4 GHz 6-Core Processor",
+      "rating": "4.9",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "Intel Core i7-9700K 3.6 GHz 8-Core Processor",
+      "url": "https://pc-builder.io/cpu/intel-core-i7-9700k-p668",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Intel Core i7-9700K 3.6 GHz 8-Core Processor",
+      "rating": "4.8",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "Intel Core i9-13900K 3 GHz 24-Core Processor",
+      "url": "https://pc-builder.io/cpu/intel-core-i9-13900k-p1324",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Intel Core i9-13900K 3 GHz 24-Core Processor",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "AMD Ryzen 3 3200G 3.6 GHz Quad-Core Processor",
+      "url": "https://pc-builder.io/cpu/amd-ryzen-3-3200g-p375",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "AMD Ryzen 3 3200G 3.6 GHz Quad-Core Processor",
+      "rating": "4.8",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "Intel Core i5-10400F 2.9 GHz 6-Core Processor",
+      "url": "https://pc-builder.io/cpu/intel-core-i5-10400f-p1186",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Intel Core i5-10400F 2.9 GHz 6-Core Processor",
+      "rating": "4.9",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "Intel Core i5-13600KF 3.5 GHz 14-Core Processor",
+      "url": "https://pc-builder.io/cpu/intel-core-i5-13600kf-p1319",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Intel Core i5-13600KF 3.5 GHz 14-Core Processor",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "Intel Core i7-8700K 3.7 GHz 6-Core Processor",
+      "url": "https://pc-builder.io/cpu/intel-core-i7-8700k-p1126",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Intel Core i7-8700K 3.7 GHz 6-Core Processor",
+      "rating": "4.9",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "AMD Ryzen 9 7900 3.6 GHz 12-Core Processor",
+      "url": "https://pc-builder.io/cpu/amd-ryzen-9-7900-p51625",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "AMD Ryzen 9 7900 3.6 GHz 12-Core Processor",
+      "rating": "5.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "Intel Core i7-14700F 2.1 GHz 20-Core Processor",
+      "url": "https://pc-builder.io/cpu/intel-core-i7-14700f-p57126",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Intel Core i7-14700F 2.1 GHz 20-Core Processor",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "AMD Ryzen 7 8700F 4.1 GHz 8-Core Processor",
+      "url": "https://pc-builder.io/cpu/amd-ryzen-7-8700f-p60299",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "AMD Ryzen 7 8700F 4.1 GHz 8-Core Processor",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "AMD Ryzen 5 5500GT 3.6 GHz 6-Core Processor",
+      "url": "https://pc-builder.io/cpu/amd-ryzen-5-5500gt-p57128",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "AMD Ryzen 5 5500GT 3.6 GHz 6-Core Processor",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "Intel Core i5-12400 2.5 GHz 6-Core Processor",
+      "url": "https://pc-builder.io/cpu/intel-core-i5-12400-p1290",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Intel Core i5-12400 2.5 GHz 6-Core Processor",
+      "rating": "4.9",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "AMD Ryzen 5 3600X 3.8 GHz 6-Core Processor",
+      "url": "https://pc-builder.io/cpu/amd-ryzen-5-3600x-p41",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "AMD Ryzen 5 3600X 3.8 GHz 6-Core Processor",
+      "rating": "4.9",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "Intel Core i9-12900KF 3.2 GHz 16-Core Processor",
+      "url": "https://pc-builder.io/cpu/intel-core-i9-12900kf-p1296",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Intel Core i9-12900KF 3.2 GHz 16-Core Processor",
+      "rating": "5.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "AMD Ryzen 3 4100 3.8 GHz Quad-Core Processor",
+      "url": "https://pc-builder.io/cpu/amd-ryzen-3-4100-p1313",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "AMD Ryzen 3 4100 3.8 GHz Quad-Core Processor",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "AMD Ryzen 7 2700X 3.7 GHz 8-Core Processor",
+      "url": "https://pc-builder.io/cpu/amd-ryzen-7-2700x-p780",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "AMD Ryzen 7 2700X 3.7 GHz 8-Core Processor",
+      "rating": "4.9",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "Intel Core i9-9900K 3.6 GHz 8-Core Processor",
+      "url": "https://pc-builder.io/cpu/intel-core-i9-9900k-p933",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Intel Core i9-9900K 3.6 GHz 8-Core Processor",
+      "rating": "4.9",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "AMD Ryzen 9 3900X 3.8 GHz 12-Core Processor",
+      "url": "https://pc-builder.io/cpu/amd-ryzen-9-3900x-p1138",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "AMD Ryzen 9 3900X 3.8 GHz 12-Core Processor",
+      "rating": "4.9",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "Intel Core Ultra 5 245K 4.2 GHz 14-Core Processor",
+      "url": "https://pc-builder.io/cpu/intel-core-ultra-5-245k-p62292",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Intel Core Ultra 5 245K 4.2 GHz 14-Core Processor",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "AMD Ryzen 5 5600GT 3.6 GHz 6-Core Processor",
+      "url": "https://pc-builder.io/cpu/amd-ryzen-5-5600gt-p57130",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "AMD Ryzen 5 5600GT 3.6 GHz 6-Core Processor",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "Intel Core i7-7700K 4.2 GHz Quad-Core Processor",
+      "url": "https://pc-builder.io/cpu/intel-core-i7-7700k-p624",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Intel Core i7-7700K 4.2 GHz Quad-Core Processor",
+      "rating": "4.7",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "Intel Core i3-14100F 3.5 GHz Quad-Core Processor",
+      "url": "https://pc-builder.io/cpu/intel-core-i3-14100f-p57125",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Intel Core i3-14100F 3.5 GHz Quad-Core Processor",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "AMD Ryzen 7 3800X 3.9 GHz 8-Core Processor",
+      "url": "https://pc-builder.io/cpu/amd-ryzen-7-3800x-p1073",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "AMD Ryzen 7 3800X 3.9 GHz 8-Core Processor",
+      "rating": "4.8",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "Intel Core i7-10700K 3.8 GHz 8-Core Processor",
+      "url": "https://pc-builder.io/cpu/intel-core-i7-10700k-p1251",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Intel Core i7-10700K 3.8 GHz 8-Core Processor",
+      "rating": "4.8",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "Intel Core i5-9400F 2.9 GHz 6-Core Processor",
+      "url": "https://pc-builder.io/cpu/intel-core-i5-9400f-p592",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Intel Core i5-9400F 2.9 GHz 6-Core Processor",
+      "rating": "4.5",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "AMD Ryzen 7 5800XT 3.8 GHz 8-Core Processor",
+      "url": "https://pc-builder.io/cpu/amd-ryzen-7-5800xt-p61580",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "AMD Ryzen 7 5800XT 3.8 GHz 8-Core Processor",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "Intel Core i7-6700K 4 GHz Quad-Core Processor",
+      "url": "https://pc-builder.io/cpu/intel-core-i7-6700k-p1151",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Intel Core i7-6700K 4 GHz Quad-Core Processor",
+      "rating": "4.9",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "Intel Core i7-13700KF 3.4 GHz 16-Core Processor",
+      "url": "https://pc-builder.io/cpu/intel-core-i7-13700kf-p1321",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Intel Core i7-13700KF 3.4 GHz 16-Core Processor",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "Intel Core i5-11400F 2.6 GHz 6-Core Processor",
+      "url": "https://pc-builder.io/cpu/intel-core-i5-11400f-p1070",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Intel Core i5-11400F 2.6 GHz 6-Core Processor",
+      "rating": "4.7",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "Intel Core i3-13100F 3.4 GHz Quad-Core Processor",
+      "url": "https://pc-builder.io/cpu/intel-core-i3-13100f-p51626",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Intel Core i3-13100F 3.4 GHz Quad-Core Processor",
+      "rating": "5.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "AMD Ryzen 5 3400G 3.7 GHz Quad-Core Processor",
+      "url": "https://pc-builder.io/cpu/amd-ryzen-5-3400g-p686",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "AMD Ryzen 5 3400G 3.7 GHz Quad-Core Processor",
+      "rating": "4.9",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "AMD Threadripper 3970X 3.7 GHz 32-Core Processor",
+      "url": "https://pc-builder.io/cpu/amd-threadripper-3970x-p1103",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "AMD Threadripper 3970X 3.7 GHz 32-Core Processor",
+      "rating": "5.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "Intel Core i5-9600K 3.7 GHz 6-Core Processor",
+      "url": "https://pc-builder.io/cpu/intel-core-i5-9600k-p2",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Intel Core i5-9600K 3.7 GHz 6-Core Processor",
+      "rating": "4.8",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "AMD Ryzen 5 4600G 3.7 GHz 6-Core Processor",
+      "url": "https://pc-builder.io/cpu/amd-ryzen-5-4600g-p1314",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "AMD Ryzen 5 4600G 3.7 GHz 6-Core Processor",
+      "rating": "5.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "Intel Core i5-8400 2.8 GHz 6-Core Processor",
+      "url": "https://pc-builder.io/cpu/intel-core-i5-8400-p446",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Intel Core i5-8400 2.8 GHz 6-Core Processor",
+      "rating": "4.8",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "Intel Core i7-11700K 3.6 GHz 8-Core Processor",
+      "url": "https://pc-builder.io/cpu/intel-core-i7-11700k-p630",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Intel Core i7-11700K 3.6 GHz 8-Core Processor",
+      "rating": "4.8",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "AMD Ryzen 5 2600X 3.6 GHz 6-Core Processor",
+      "url": "https://pc-builder.io/cpu/amd-ryzen-5-2600x-p101",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "AMD Ryzen 5 2600X 3.6 GHz 6-Core Processor",
+      "rating": "4.8",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "Intel Core i7-8700 3.2 GHz 6-Core Processor",
+      "url": "https://pc-builder.io/cpu/intel-core-i7-8700-p226",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Intel Core i7-8700 3.2 GHz 6-Core Processor",
+      "rating": "4.9",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "Intel Core i7-13700F 2.1 GHz 16-Core Processor",
+      "url": "https://pc-builder.io/cpu/intel-core-i7-13700f-p51629",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Intel Core i7-13700F 2.1 GHz 16-Core Processor",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "Intel Core i7-4790K 4 GHz Quad-Core Processor",
+      "url": "https://pc-builder.io/cpu/intel-core-i7-4790k-p103",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Intel Core i7-4790K 4 GHz Quad-Core Processor",
+      "rating": "4.9",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "Intel Core i7-12700F 2.1 GHz 12-Core Processor",
+      "url": "https://pc-builder.io/cpu/intel-core-i7-12700f-p1286",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Intel Core i7-12700F 2.1 GHz 12-Core Processor",
+      "rating": "4.8",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "cpus",
+      "nombre": "Intel Pentium E2220 2.4 GHz Dual-Core Processor",
+      "url": "https://pc-builder.io/cpu/intel-pentium-e2220-p851",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Intel Pentium E2220 2.4 GHz Dual-Core Processor",
+      "especificaciones": {}
+    }
+  ],
+  "gpus": [
+    {
+      "tipo": "gpus",
+      "nombre": "NVIDIA GeForce GTX 1050 2GB",
+      "url": "https://pc-builder.io/gpu/msi-geforce-rtx-3060-ventus-2x-12g-p25857",
+      "imagen": "https://pc-builder.io/images/gpu/1667207907_19310.jpg",
+      "alt_text": "NVIDIA GeForce GTX 1050 2GB",
+      "rating": "4.5",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "AMD Radeon HD 7850 2GB",
+      "url": "https://pc-builder.io/gpu/msi-geforce-rtx-3060-ventus-2x-12g-p25857",
+      "imagen": "https://pc-builder.io/images/gpu/1667207907_19310.jpg",
+      "alt_text": "AMD Radeon HD 7850 2GB",
+      "rating": "4.5",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "NVIDIA GeForce GTX 960 2GB",
+      "url": "https://pc-builder.io/gpu/msi-geforce-rtx-3060-ventus-2x-12g-p25857",
+      "imagen": "https://pc-builder.io/images/gpu/1667207907_19310.jpg",
+      "alt_text": "NVIDIA GeForce GTX 960 2GB",
+      "rating": "4.5",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "AMD Radeon R7 370 2GB",
+      "url": "https://pc-builder.io/gpu/msi-geforce-rtx-3060-ventus-2x-12g-p25857",
+      "imagen": "https://pc-builder.io/images/gpu/1667207907_19310.jpg",
+      "alt_text": "AMD Radeon R7 370 2GB",
+      "rating": "4.5",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "GeForce GTX 750Ti",
+      "url": "https://pc-builder.io/gpu/msi-geforce-rtx-3060-ventus-2x-12g-p25857",
+      "imagen": "https://pc-builder.io/images/gpu/1667207907_19310.jpg",
+      "alt_text": "GeForce GTX 750Ti",
+      "rating": "4.5",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "Radeon R7 250X",
+      "url": "https://pc-builder.io/gpu/msi-geforce-rtx-3060-ventus-2x-12g-p25857",
+      "imagen": "https://pc-builder.io/images/gpu/1667207907_19310.jpg",
+      "alt_text": "Radeon R7 250X",
+      "rating": "4.5",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "MSI GeForce RTX 3060 Ventus 2X 12G GeForce RTX 3060 12 GB Graphics Card",
+      "url": "https://pc-builder.io/gpu/msi-geforce-rtx-3060-ventus-2x-12g-p25857",
+      "imagen": "https://pc-builder.io/images/gpu/1667207907_19310.jpg",
+      "alt_text": "MSI GeForce RTX 3060 Ventus 2X 12G GeForce RTX 3060 12 GB Graphics Card",
+      "rating": "4.5",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "MSI VENTUS 2X BLACK OC GeForce RTX 4060 8 GB Video Card",
+      "url": "https://pc-builder.io/gpu/msi-ventus-2x-black-oc-p54019",
+      "imagen": "https://pc-builder.io/images/gpu/1692874720_6933.jpg",
+      "alt_text": "MSI VENTUS 2X BLACK OC GeForce RTX 4060 8 GB Video Card",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "Asus TUF GAMING OC GeForce RTX 4070 Ti SUPER 16 GB Video Card",
+      "url": "https://pc-builder.io/gpu/asus-tuf-gaming-oc-p58046",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Asus TUF GAMING OC GeForce RTX 4070 Ti SUPER 16 GB Video Card",
+      "rating": "5.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "NVIDIA Founders Edition GeForce RTX 5090 32 GB Video Card",
+      "url": "https://pc-builder.io/gpu/nvidia-founders-edition-p64322",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "NVIDIA Founders Edition GeForce RTX 5090 32 GB Video Card",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "ASRock Challenger D Radeon RX 6600 8 GB Graphics Card",
+      "url": "https://pc-builder.io/gpu/asrock-challenger-d-p26807",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "ASRock Challenger D Radeon RX 6600 8 GB Graphics Card",
+      "rating": "4.6",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "Gigabyte GAMING OC Radeon RX 7700 XT 12 GB Video Card",
+      "url": "https://pc-builder.io/gpu/gigabyte-gaming-oc-p56191",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Gigabyte GAMING OC Radeon RX 7700 XT 12 GB Video Card",
+      "rating": "4.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "Gigabyte GAMING OC Radeon RX 7600 XT 16 GB Video Card",
+      "url": "https://pc-builder.io/gpu/gigabyte-gaming-oc-p58045",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Gigabyte GAMING OC Radeon RX 7600 XT 16 GB Video Card",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "Gigabyte WINDFORCE OC GeForce RTX 4070 SUPER 12 GB Video Card",
+      "url": "https://pc-builder.io/gpu/gigabyte-windforce-oc-p58034",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Gigabyte WINDFORCE OC GeForce RTX 4070 SUPER 12 GB Video Card",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "Gigabyte GAMING OC Radeon RX 7800 XT 16 GB Video Card",
+      "url": "https://pc-builder.io/gpu/gigabyte-gaming-oc-p56184",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Gigabyte GAMING OC Radeon RX 7800 XT 16 GB Video Card",
+      "rating": "5.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "MSI VENTUS 2X OC GeForce RTX 4070 12 GB Video Card",
+      "url": "https://pc-builder.io/gpu/msi-ventus-2x-oc-p54046",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "MSI VENTUS 2X OC GeForce RTX 4070 12 GB Video Card",
+      "rating": "5.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "Asus ROG STRIX GAMING OC GeForce RTX 4090 24 GB Video Card",
+      "url": "https://pc-builder.io/gpu/asus-rog-strix-gaming-oc-p50471",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Asus ROG STRIX GAMING OC GeForce RTX 4090 24 GB Video Card",
+      "rating": "4.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "MSI VENTUS 3X OC GeForce RTX 4080 SUPER 16 GB Video Card",
+      "url": "https://pc-builder.io/gpu/msi-ventus-3x-oc-p58040",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "MSI VENTUS 3X OC GeForce RTX 4080 SUPER 16 GB Video Card",
+      "rating": "5.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "Asus DUAL EVO OC GeForce RTX 4070 SUPER 12 GB Video Card",
+      "url": "https://pc-builder.io/gpu/asus-dual-evo-oc-p58179",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Asus DUAL EVO OC GeForce RTX 4070 SUPER 12 GB Video Card",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "Asus TUF GAMING OC GeForce RTX 4080 SUPER 16 GB Video Card",
+      "url": "https://pc-builder.io/gpu/asus-tuf-gaming-oc-p58075",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Asus TUF GAMING OC GeForce RTX 4080 SUPER 16 GB Video Card",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "Gigabyte WINDFORCE OC GeForce RTX 4060 8 GB Video Card",
+      "url": "https://pc-builder.io/gpu/gigabyte-windforce-oc-p54024",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Gigabyte WINDFORCE OC GeForce RTX 4060 8 GB Video Card",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "XFX Speedster QICK 319 Core Radeon RX 6750 XT 12 GB Graphics Card",
+      "url": "https://pc-builder.io/gpu/xfx-speedster-qick-319-core-p27169",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "XFX Speedster QICK 319 Core Radeon RX 6750 XT 12 GB Graphics Card",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "NVIDIA Founders Edition GeForce RTX 4090 24 GB Video Card",
+      "url": "https://pc-builder.io/gpu/nvidia-founders-edition-p50498",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "NVIDIA Founders Edition GeForce RTX 4090 24 GB Video Card",
+      "rating": "5.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "Sapphire PULSE Radeon RX 7800 XT 16 GB Video Card",
+      "url": "https://pc-builder.io/gpu/sapphire-pulse-p56185",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Sapphire PULSE Radeon RX 7800 XT 16 GB Video Card",
+      "rating": "5.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "PNY VCNRTX6000ADA-PB RTX 6000 Ada Generation 48 GB Video Card",
+      "url": "https://pc-builder.io/gpu/pny-vcnrtx6000ada-pb-p54020",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "PNY VCNRTX6000ADA-PB RTX 6000 Ada Generation 48 GB Video Card",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "XFX Speedster QICK 319 Core Radeon RX 7800 XT 16 GB Video Card",
+      "url": "https://pc-builder.io/gpu/xfx-speedster-qick-319-core-p56192",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "XFX Speedster QICK 319 Core Radeon RX 7800 XT 16 GB Video Card",
+      "rating": "4.5",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "XFX Speedster MERC 310 Black Edition Radeon RX 7900 XTX 24 GB Video Card",
+      "url": "https://pc-builder.io/gpu/xfx-speedster-merc-310-black-edition-p51339",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "XFX Speedster MERC 310 Black Edition Radeon RX 7900 XTX 24 GB Video Card",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "XFX Speedster MERC 310 Radeon RX 7900 XT 20 GB Video Card",
+      "url": "https://pc-builder.io/gpu/xfx-speedster-merc-310-p51375",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "XFX Speedster MERC 310 Radeon RX 7900 XT 20 GB Video Card",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "Gigabyte WINDFORCE OC GeForce RTX 4070 12 GB Video Card",
+      "url": "https://pc-builder.io/gpu/gigabyte-windforce-oc-p54013",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Gigabyte WINDFORCE OC GeForce RTX 4070 12 GB Video Card",
+      "rating": "5.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "Asus DUAL EVO OC GeForce RTX 4060 Ti 16 GB Video Card",
+      "url": "https://pc-builder.io/gpu/asus-dual-evo-oc-p60904",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Asus DUAL EVO OC GeForce RTX 4060 Ti 16 GB Video Card",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "XFX GTR XXX Radeon RX 580 8 GB Graphics Card",
+      "url": "https://pc-builder.io/gpu/xfx-gtr-xxx-p23870",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "XFX GTR XXX Radeon RX 580 8 GB Graphics Card",
+      "rating": "4.7",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "MSI VENTUS 2X OC GeForce RTX 4070 SUPER 12 GB Video Card",
+      "url": "https://pc-builder.io/gpu/msi-ventus-2x-oc-p58064",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "MSI VENTUS 2X OC GeForce RTX 4070 SUPER 12 GB Video Card",
+      "rating": "5.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "Sapphire PULSE Radeon RX 7900 XT 20 GB Video Card",
+      "url": "https://pc-builder.io/gpu/sapphire-pulse-p51386",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Sapphire PULSE Radeon RX 7900 XT 20 GB Video Card",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "Asus Dual GeForce RTX 3060 V2 OC Edition GeForce RTX 3060 12 GB Graphics Card",
+      "url": "https://pc-builder.io/gpu/asus-dual-geforce-rtx-3060-v2-oc-edition-p27338",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Asus Dual GeForce RTX 3060 V2 OC Edition GeForce RTX 3060 12 GB Graphics Card",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "ASRock Challenger Radeon RX 6600 8 GB Video Card",
+      "url": "https://pc-builder.io/gpu/asrock-challenger-p56214",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "ASRock Challenger Radeon RX 6600 8 GB Video Card",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "MSI VENTUS 2X BLACK OC GeForce RTX 4060 Ti 16 GB Video Card",
+      "url": "https://pc-builder.io/gpu/msi-ventus-2x-black-oc-p54077",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "MSI VENTUS 2X BLACK OC GeForce RTX 4060 Ti 16 GB Video Card",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "ASRock Challenger OC Arc B580 12 GB Video Card",
+      "url": "https://pc-builder.io/gpu/asrock-challenger-oc-p64325",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "ASRock Challenger OC Arc B580 12 GB Video Card",
+      "rating": "4.5",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "Asus ROG STRIX GAMING OC GeForce RTX 4090 24 GB Video Card",
+      "url": "https://pc-builder.io/gpu/asus-rog-strix-gaming-oc-p51380",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Asus ROG STRIX GAMING OC GeForce RTX 4090 24 GB Video Card",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "Gigabyte AERO OC GeForce RTX 4060 8 GB Video Card",
+      "url": "https://pc-builder.io/gpu/gigabyte-aero-oc-p54029",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Gigabyte AERO OC GeForce RTX 4060 8 GB Video Card",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "Asus TUF GAMING OC GeForce RTX 5080 16 GB Video Card",
+      "url": "https://pc-builder.io/gpu/asus-tuf-gaming-oc-p64326",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Asus TUF GAMING OC GeForce RTX 5080 16 GB Video Card",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "Asus ROG Astral OC GeForce RTX 5090 32 GB Video Card",
+      "url": "https://pc-builder.io/gpu/asus-rog-astral-oc-p64327",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Asus ROG Astral OC GeForce RTX 5090 32 GB Video Card",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "Sapphire PULSE Radeon RX 7900 XTX 24 GB Video Card",
+      "url": "https://pc-builder.io/gpu/sapphire-pulse-p51372",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Sapphire PULSE Radeon RX 7900 XTX 24 GB Video Card",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "Asus DUAL EVO OC GeForce RTX 4060 8 GB Video Card",
+      "url": "https://pc-builder.io/gpu/asus-dual-evo-oc-p60871",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Asus DUAL EVO OC GeForce RTX 4060 8 GB Video Card",
+      "rating": "5.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "MSI VENTUS 2X OC GeForce RTX 3050 6GB 6 GB Video Card",
+      "url": "https://pc-builder.io/gpu/msi-ventus-2x-oc-p58105",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "MSI VENTUS 2X OC GeForce RTX 3050 6GB 6 GB Video Card",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "MSI GAMING X SLIM GeForce RTX 4070 SUPER 12 GB Video Card",
+      "url": "https://pc-builder.io/gpu/msi-gaming-x-slim-p58053",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "MSI GAMING X SLIM GeForce RTX 4070 SUPER 12 GB Video Card",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "Gigabyte WINDFORCE V2 GeForce RTX 4080 SUPER 16 GB Video Card",
+      "url": "https://pc-builder.io/gpu/gigabyte-windforce-v2-p58039",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Gigabyte WINDFORCE V2 GeForce RTX 4080 SUPER 16 GB Video Card",
+      "rating": "5.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "Gigabyte GAMING OC Radeon RX 7600 8 GB Video Card",
+      "url": "https://pc-builder.io/gpu/gigabyte-gaming-oc-p54039",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Gigabyte GAMING OC Radeon RX 7600 8 GB Video Card",
+      "rating": "5.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "MSI GAMING X SLIM GeForce RTX 4070 Ti SUPER 16 GB Video Card",
+      "url": "https://pc-builder.io/gpu/msi-gaming-x-slim-p58057",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "MSI GAMING X SLIM GeForce RTX 4070 Ti SUPER 16 GB Video Card",
+      "rating": "5.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "Asus ROG STRIX GAMING GeForce RTX 4080 SUPER 16 GB Video Card",
+      "url": "https://pc-builder.io/gpu/asus-rog-strix-gaming-p58130",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Asus ROG STRIX GAMING GeForce RTX 4080 SUPER 16 GB Video Card",
+      "rating": "5.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "Gigabyte GAMING OC GeForce RTX 4060 8 GB Video Card",
+      "url": "https://pc-builder.io/gpu/gigabyte-gaming-oc-p54081",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Gigabyte GAMING OC GeForce RTX 4060 8 GB Video Card",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "Asus DUAL OC Radeon RX 7800 XT 16 GB Video Card",
+      "url": "https://pc-builder.io/gpu/asus-dual-oc-p58088",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Asus DUAL OC Radeon RX 7800 XT 16 GB Video Card",
+      "rating": "5.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "Gigabyte GAMING OC GeForce RTX 4090 24 GB Video Card",
+      "url": "https://pc-builder.io/gpu/gigabyte-gaming-oc-p50462",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Gigabyte GAMING OC GeForce RTX 4090 24 GB Video Card",
+      "rating": "4.8",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "Gigabyte GAMING OC GeForce RTX 5070 Ti 16 GB Video Card",
+      "url": "https://pc-builder.io/gpu/gigabyte-gaming-oc-p64328",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Gigabyte GAMING OC GeForce RTX 5070 Ti 16 GB Video Card",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "XFX Quicksilver Magnetic Air Radeon RX 7800 XT 16 GB Video Card",
+      "url": "https://pc-builder.io/gpu/xfx-quicksilver-magnetic-air-p61855",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "XFX Quicksilver Magnetic Air Radeon RX 7800 XT 16 GB Video Card",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "Sapphire NITRO+ Radeon RX 7900 XTX 24 GB Video Card",
+      "url": "https://pc-builder.io/gpu/sapphire-nitro-p51350",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Sapphire NITRO+ Radeon RX 7900 XTX 24 GB Video Card",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "NVIDIA Founders Edition GeForce RTX 3060 Ti 8 GB Graphics Card",
+      "url": "https://pc-builder.io/gpu/nvidia-founders-edition-p26492",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "NVIDIA Founders Edition GeForce RTX 3060 Ti 8 GB Graphics Card",
+      "rating": "5.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "MSI VENTUS 2X OC GeForce RTX 4070 SUPER 12 GB Video Card",
+      "url": "https://pc-builder.io/gpu/msi-ventus-2x-oc-p58058",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "MSI VENTUS 2X OC GeForce RTX 4070 SUPER 12 GB Video Card",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "Gigabyte WINDFORCE OC Rev 2.0 GeForce RTX 3060 12GB 12 GB Video Card",
+      "url": "https://pc-builder.io/gpu/gigabyte-windforce-oc-rev-20-p58092",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Gigabyte WINDFORCE OC Rev 2.0 GeForce RTX 3060 12GB 12 GB Video Card",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "ASRock Phantom Gaming OC Radeon RX 7900 XTX 24 GB Video Card",
+      "url": "https://pc-builder.io/gpu/asrock-phantom-gaming-oc-p51368",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "ASRock Phantom Gaming OC Radeon RX 7900 XTX 24 GB Video Card",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "Asus ROG STRIX GAMING OC GeForce RTX 4080 SUPER 16 GB Video Card",
+      "url": "https://pc-builder.io/gpu/asus-rog-strix-gaming-oc-p58056",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Asus ROG STRIX GAMING OC GeForce RTX 4080 SUPER 16 GB Video Card",
+      "rating": "5.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "Gigabyte WINDFORCE OC GeForce RTX 4070 Ti SUPER 16 GB Video Card",
+      "url": "https://pc-builder.io/gpu/gigabyte-windforce-oc-p58033",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Gigabyte WINDFORCE OC GeForce RTX 4070 Ti SUPER 16 GB Video Card",
+      "rating": "5.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "NVIDIA Founders Edition GeForce RTX 5080 16 GB Video Card",
+      "url": "https://pc-builder.io/gpu/nvidia-founders-edition-p64329",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "NVIDIA Founders Edition GeForce RTX 5080 16 GB Video Card",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "XFX Speedster SWFT 210 Radeon RX 6600 8 GB Graphics Card",
+      "url": "https://pc-builder.io/gpu/xfx-speedster-swft-210-p27134",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "XFX Speedster SWFT 210 Radeon RX 6600 8 GB Graphics Card",
+      "rating": "4.8",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "Asus DUAL EVO OC GeForce RTX 4070 12 GB Video Card",
+      "url": "https://pc-builder.io/gpu/asus-dual-evo-oc-p60874",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Asus DUAL EVO OC GeForce RTX 4070 12 GB Video Card",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "XFX Speedster QICK 319 BLACK Radeon RX 7700 XT 12 GB Video Card",
+      "url": "https://pc-builder.io/gpu/xfx-speedster-qick-319-black-p56221",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "XFX Speedster QICK 319 BLACK Radeon RX 7700 XT 12 GB Video Card",
+      "rating": "3.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "MSI VENTUS 3X OC GeForce RTX 4070 12 GB Video Card",
+      "url": "https://pc-builder.io/gpu/msi-ventus-3x-oc-p54016",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "MSI VENTUS 3X OC GeForce RTX 4070 12 GB Video Card",
+      "rating": "5.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "Asus TUF GAMING OC GeForce RTX 4070 Ti SUPER 16 GB Video Card",
+      "url": "https://pc-builder.io/gpu/asus-tuf-gaming-oc-p58086",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Asus TUF GAMING OC GeForce RTX 4070 Ti SUPER 16 GB Video Card",
+      "rating": "5.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "XFX Speedster SWFT 210 Core Radeon RX 6650 XT 8 GB Graphics Card",
+      "url": "https://pc-builder.io/gpu/xfx-speedster-swft-210-core-p27160",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "XFX Speedster SWFT 210 Core Radeon RX 6650 XT 8 GB Graphics Card",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "Asus TUF GAMING OC GeForce RTX 4070 SUPER 12 GB Video Card",
+      "url": "https://pc-builder.io/gpu/asus-tuf-gaming-oc-p58081",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Asus TUF GAMING OC GeForce RTX 4070 SUPER 12 GB Video Card",
+      "rating": "4.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "PowerColor Hellhound Radeon RX 7900 XT 20 GB Video Card",
+      "url": "https://pc-builder.io/gpu/powercolor-hellhound-p51363",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "PowerColor Hellhound Radeon RX 7900 XT 20 GB Video Card",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "MSI RTX 3060 Ventus 3X 12G OC GeForce RTX 3060 12 GB Graphics Card",
+      "url": "https://pc-builder.io/gpu/msi-rtx-3060-ventus-3x-12g-oc-p26993",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "MSI RTX 3060 Ventus 3X 12G OC GeForce RTX 3060 12 GB Graphics Card",
+      "rating": "5.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "PowerColor Fighter Radeon RX 6600 8 GB Graphics Card",
+      "url": "https://pc-builder.io/gpu/powercolor-fighter-p27100",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "PowerColor Fighter Radeon RX 6600 8 GB Graphics Card",
+      "rating": "4.7",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "Asus TUF GAMING OC GeForce RTX 4090 24 GB Video Card",
+      "url": "https://pc-builder.io/gpu/asus-tuf-gaming-oc-p50473",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Asus TUF GAMING OC GeForce RTX 4090 24 GB Video Card",
+      "rating": "5.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "Asus ProArt OC GeForce RTX 4070 Ti SUPER 16 GB Video Card",
+      "url": "https://pc-builder.io/gpu/asus-proart-oc-p58115",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Asus ProArt OC GeForce RTX 4070 Ti SUPER 16 GB Video Card",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "XFX RX-79GMERCB9 Radeon RX 7900 GRE 16 GB Video Card",
+      "url": "https://pc-builder.io/gpu/xfx-rx-79gmercb9-p58103",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "XFX RX-79GMERCB9 Radeon RX 7900 GRE 16 GB Video Card",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "Asus PRIME OC GeForce RTX 4070 Ti SUPER 16 GB Video Card",
+      "url": "https://pc-builder.io/gpu/asus-prime-oc-p64330",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Asus PRIME OC GeForce RTX 4070 Ti SUPER 16 GB Video Card",
+      "rating": "5.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "MSI GT 710 2GD3 LP GeForce GT 710 2 GB Graphics Card",
+      "url": "https://pc-builder.io/gpu/msi-gt-710-2gd3-lp-p22188",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "MSI GT 710 2GD3 LP GeForce GT 710 2 GB Graphics Card",
+      "rating": "4.3",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "Asus ProArt OC GeForce RTX 4080 SUPER 16 GB Video Card",
+      "url": "https://pc-builder.io/gpu/asus-proart-oc-p58049",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Asus ProArt OC GeForce RTX 4080 SUPER 16 GB Video Card",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "MSI GAMING X SLIM GeForce RTX 4090 24 GB Video Card",
+      "url": "https://pc-builder.io/gpu/msi-gaming-x-slim-p56218",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "MSI GAMING X SLIM GeForce RTX 4090 24 GB Video Card",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "XFX Speedster MERC 310 Black Edition Radeon RX 7900 XT 20 GB Video Card",
+      "url": "https://pc-builder.io/gpu/xfx-speedster-merc-310-black-edition-p51351",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "XFX Speedster MERC 310 Black Edition Radeon RX 7900 XT 20 GB Video Card",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "Gigabyte EAGLE OC GeForce RTX 4060 8 GB Video Card",
+      "url": "https://pc-builder.io/gpu/gigabyte-eagle-oc-p54055",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Gigabyte EAGLE OC GeForce RTX 4060 8 GB Video Card",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "ASRock Challenger OC Radeon RX 7800 XT 16 GB Video Card",
+      "url": "https://pc-builder.io/gpu/asrock-challenger-oc-p56196",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "ASRock Challenger OC Radeon RX 7800 XT 16 GB Video Card",
+      "rating": "5.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "MSI RTX 4070 Ti SUPER 16G VENTUS 3X BLACK OC GeForce RTX 4070 Ti SUPER 16 GB Video Card",
+      "url": "https://pc-builder.io/gpu/msi-rtx-4070-ti-super-16g-ventus-3x-black-oc-p61867",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "MSI RTX 4070 Ti SUPER 16G VENTUS 3X BLACK OC GeForce RTX 4070 Ti SUPER 16 GB Video Card",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "MSI VENTUS XS OC GeForce GTX 1660 SUPER 6 GB Graphics Card",
+      "url": "https://pc-builder.io/gpu/msi-ventus-xs-oc-p24777",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "MSI VENTUS XS OC GeForce GTX 1660 SUPER 6 GB Graphics Card",
+      "rating": "4.6",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "ASRock Challenger D OC Radeon RX 6600 XT 8 GB Graphics Card",
+      "url": "https://pc-builder.io/gpu/asrock-challenger-d-oc-p26872",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "ASRock Challenger D OC Radeon RX 6600 XT 8 GB Graphics Card",
+      "rating": "5.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "MSI VENTUS 3X OC GeForce RTX 4070 SUPER 12 GB Video Card",
+      "url": "https://pc-builder.io/gpu/msi-ventus-3x-oc-p58055",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "MSI VENTUS 3X OC GeForce RTX 4070 SUPER 12 GB Video Card",
+      "rating": "5.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "Gigabyte GAMING OC GeForce RTX 4070 SUPER 12 GB Video Card",
+      "url": "https://pc-builder.io/gpu/gigabyte-gaming-oc-p58077",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Gigabyte GAMING OC GeForce RTX 4070 SUPER 12 GB Video Card",
+      "rating": "5.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "PowerColor Hellhound OC Radeon RX 7800 XT 16 GB Video Card",
+      "url": "https://pc-builder.io/gpu/powercolor-hellhound-oc-p56190",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "PowerColor Hellhound OC Radeon RX 7800 XT 16 GB Video Card",
+      "rating": "5.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "ASRock Taichi OC Radeon RX 7900 XTX 24 GB Video Card",
+      "url": "https://pc-builder.io/gpu/asrock-taichi-oc-p54049",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "ASRock Taichi OC Radeon RX 7900 XTX 24 GB Video Card",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "MSI VENTUS 2X BLACK OC GeForce RTX 4060 Ti 8 GB Video Card",
+      "url": "https://pc-builder.io/gpu/msi-ventus-2x-black-oc-p54044",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "MSI VENTUS 2X BLACK OC GeForce RTX 4060 Ti 8 GB Video Card",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "Gigabyte WINDFORCE OC V2 GeForce RTX 4070 12 GB Video Card",
+      "url": "https://pc-builder.io/gpu/gigabyte-windforce-oc-v2-p63126",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Gigabyte WINDFORCE OC V2 GeForce RTX 4070 12 GB Video Card",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "Gigabyte GAMING OC GeForce RTX 3070 8 GB Graphics Card",
+      "url": "https://pc-builder.io/gpu/gigabyte-gaming-oc-p22190",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Gigabyte GAMING OC GeForce RTX 3070 8 GB Graphics Card",
+      "rating": "4.6",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "Sapphire PURE Radeon RX 7800 XT 16 GB Video Card",
+      "url": "https://pc-builder.io/gpu/sapphire-pure-p56186",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Sapphire PURE Radeon RX 7800 XT 16 GB Video Card",
+      "rating": "4.6",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "ASRock Steel Legend OC Arc B580 12 GB Video Card",
+      "url": "https://pc-builder.io/gpu/asrock-steel-legend-oc-p64331",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "ASRock Steel Legend OC Arc B580 12 GB Video Card",
+      "rating": "5.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "Zotac GAMING Twin Edge OC GeForce RTX 4060 8 GB Video Card",
+      "url": "https://pc-builder.io/gpu/zotac-gaming-twin-edge-oc-p54061",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Zotac GAMING Twin Edge OC GeForce RTX 4060 8 GB Video Card",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "Asus DUAL EVO OC GeForce RTX 4070 12 GB Video Card",
+      "url": "https://pc-builder.io/gpu/asus-dual-evo-oc-p61877",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Asus DUAL EVO OC GeForce RTX 4070 12 GB Video Card",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "NVIDIA Founders Edition GeForce RTX 5070 12 GB Video Card",
+      "url": "https://pc-builder.io/gpu/nvidia-founders-edition-p64332",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "NVIDIA Founders Edition GeForce RTX 5070 12 GB Video Card",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "XFX Speedster SWFT 210 Core Radeon RX 7600 8 GB Video Card",
+      "url": "https://pc-builder.io/gpu/xfx-speedster-swft-210-core-p54025",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "XFX Speedster SWFT 210 Core Radeon RX 7600 8 GB Video Card",
+      "rating": "4.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "NVIDIA Founders Edition GeForce RTX 4070 12 GB Video Card",
+      "url": "https://pc-builder.io/gpu/nvidia-founders-edition-p54023",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "NVIDIA Founders Edition GeForce RTX 4070 12 GB Video Card",
+      "rating": "4.4",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "Asus ROG STRIX GAMING GeForce RTX 4090 24 GB Video Card",
+      "url": "https://pc-builder.io/gpu/asus-rog-strix-gaming-p51389",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Asus ROG STRIX GAMING GeForce RTX 4090 24 GB Video Card",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "Asus ROG Astral OC GeForce RTX 5080 16 GB Video Card",
+      "url": "https://pc-builder.io/gpu/asus-rog-astral-oc-p64333",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Asus ROG Astral OC GeForce RTX 5080 16 GB Video Card",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "Gigabyte GAMING OC GeForce RTX 4070 Ti SUPER 16 GB Video Card",
+      "url": "https://pc-builder.io/gpu/gigabyte-gaming-oc-p58071",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Gigabyte GAMING OC GeForce RTX 4070 Ti SUPER 16 GB Video Card",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "Sapphire NITRO+ Radeon RX 7800 XT 16 GB Video Card",
+      "url": "https://pc-builder.io/gpu/sapphire-nitro-p56194",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Sapphire NITRO+ Radeon RX 7800 XT 16 GB Video Card",
+      "rating": "5.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "NVIDIA Founders Edition GeForce RTX 4060 Ti 8 GB Video Card",
+      "url": "https://pc-builder.io/gpu/nvidia-founders-edition-p54048",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "NVIDIA Founders Edition GeForce RTX 4060 Ti 8 GB Video Card",
+      "rating": "5.0",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "Asus DUAL OC Radeon RX 7700 XT 12 GB Video Card",
+      "url": "https://pc-builder.io/gpu/asus-dual-oc-p58138",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "Asus DUAL OC Radeon RX 7700 XT 12 GB Video Card",
+      "especificaciones": {}
+    },
+    {
+      "tipo": "gpus",
+      "nombre": "PowerColor Fighter OC Radeon RX 7800 XT 16 GB Video Card",
+      "url": "https://pc-builder.io/gpu/powercolor-fighter-oc-p56303",
+      "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+ip1sAAAAASUVORK5CYII=",
+      "alt_text": "PowerColor Fighter OC Radeon RX 7800 XT 16 GB Video Card",
+      "especificaciones": {}
+    }
+  ]
+}

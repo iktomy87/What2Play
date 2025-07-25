@@ -14,7 +14,7 @@ app.use(express.json());
 
 // Rutas existentes
 app.use('/api/users', require('./routes/userRoutes'));
-app.use('/api/games', require('./routes/gameRoutes'));
+app.use('/api/recommendations', require('./routes/recommendationRoutes'));
 
 // Nueva ruta para componentes de hardware (versión estática)
 app.get('/api/components', async (req, res) => {
