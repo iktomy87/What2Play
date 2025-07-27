@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Stars from './BackgroundEffects/Stars';
 import FloatingElements from './BackgroundEffects/FloatingElements';
 import styles from './styles/HomePage.module.css';
+import Header from '../components/Header';
 
 const HomePage = () => {
   // Funciones de interacción
@@ -37,14 +38,8 @@ const HomePage = () => {
     <div className={styles.container}>
       <Stars />
       <FloatingElements />
-      
-      <header className={styles.header}>
-        <div className={styles.logo}>What2Play</div>
-        <div className={styles.userMenu}>
-          <Link to="/login" className={styles.loginLink}>Iniciar sesión</Link>
-          <button className={styles.profileBtn} onClick={() => alert('Perfil de usuario')}></button>
-        </div>
-      </header>
+      <Header />
+  
 
       <div className={styles.hero}>
         <h1>Encuentra tu próximo juego perfecto</h1>
@@ -52,11 +47,8 @@ const HomePage = () => {
         
         <div className={styles.ctaButtons}>
           <Link to="/recommendations" className={`${styles.btn} ${styles.btnPrimary}`}>
-            🎮 Buscar Juegos
+            🎮 Buscar recomendaciones
           </Link>
-          <button className={`${styles.btn} ${styles.btnSecondary}`} onClick={analyzePC}>
-            💻 Analizar mi PC
-          </button>
         </div>
       </div>
 

@@ -1,3 +1,14 @@
+.logoContainer {
+  height: 60px; /* Ajusta según necesites */
+  padding-left: 20px;
+}
+
+.logoImage {
+  height: 80%;
+  width: auto;
+  object-fit: contain;
+}
+
 .container {
   /* Elimina min-height: 100vh si no es necesario */
   width: 100%;
@@ -15,15 +26,6 @@
   margin-bottom: 60px;
 }
 
-.logo {
-  font-size: 2rem;
-  font-weight: 800;
-  background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1);
-  background-size: 200% 200%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: gradient 3s ease infinite;
-}
 
 @keyframes gradient {
   0% { background-position: 0% 50%; }
@@ -71,9 +73,9 @@
   font-size: clamp(2.5rem, 5vw, 4rem);
   font-weight: 900;
   margin-bottom: 20px;
-  background: linear-gradient(135deg, #ffffff 0%, #b8c6db 100%);
+  background: linear-gradient(135deg, #ffffff 0%, #bcc0c7 100%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: white;
   text-shadow: 0 4px 8px rgba(0,0,0,0.3);
 }
 
@@ -109,14 +111,14 @@
 }
 
 .btnPrimary {
-  background: linear-gradient(135deg, #ff6b6b 0%, #feca57 100%);
+  background: linear-gradient(135deg, #020024 0%, #6A3DC4 100%);
   color: white;
-  box-shadow: 0 8px 32px rgba(255, 107, 107, 0.3);
+  box-shadow: 0 8px 32px rgba(45, 27, 105, 100);
 }
 
 .btnPrimary:hover {
   transform: translateY(-3px);
-  box-shadow: 0 12px 40px rgba(255, 107, 107, 0.4);
+  box-shadow: 0 12px 40px rgba(57, 36, 128, 100);
 }
 
 .btnSecondary {

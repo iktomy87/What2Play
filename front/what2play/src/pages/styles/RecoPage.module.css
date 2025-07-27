@@ -1,0 +1,170 @@
+/* En RecoPage.module.css o RecoPage.css */
+
+.recoContent {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+}
+
+.recoContent h2 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  background: linear-gradient(90deg, #a855f7, #6366f1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.recoContent > p {
+  font-size: 1.1rem;
+  color: #a0aec0; /* Gris claro */
+  margin-bottom: 2.5rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  background: rgba(17, 24, 39, 0.6); /* Fondo oscuro semi-transparente */
+  border: 1px solid #374151; /* Borde sutil */
+  border-radius: 12px;
+  padding: 2rem;
+  backdrop-filter: blur(10px);
+}
+
+.formGroup label,
+.formGroup legend {
+  display: block;
+  text-align: left;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #f9fafb; /* Texto blanco */
+}
+
+.formGroup input[type="text"],
+.formGroup input[type="number"] {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  background-color: #1f2937; /* Fondo de input oscuro */
+  border: 1px solid #4b5563; /* Borde gris oscuro */
+  border-radius: 8px;
+  color: #f9fafb;
+  font-size: 1rem;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.formGroup input[type="text"]:focus,
+.formGroup input[type="number"]:focus {
+  outline: none;
+  border-color: #6366f1; /* Borde índigo en foco */
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.4);
+}
+
+/* Estilos para checkboxes personalizados */
+.genreCheckboxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: flex-start;
+}
+
+.checkboxLabel {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  background-color: #374151;
+  border-radius: 20px;
+  transition: background-color 0.3s;
+  color: #d1d5db;
+}
+
+.checkboxLabel:hover {
+  background-color: #4b5563;
+}
+
+.checkboxLabel input[type="checkbox"] {
+  display: none; /* Oculta el checkbox por defecto */
+}
+
+.checkboxCustom {
+  width: 18px;
+  height: 18px;
+  border: 2px solid #9ca3af;
+  border-radius: 4px;
+  margin-right: 0.75rem;
+  display: inline-block;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.checkboxLabel input[type="checkbox"]:checked + .checkboxCustom {
+  background-color: #6366f1;
+  border-color: #6366f1;
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z'/%3e%3c/svg%3e");
+}
+
+/* Lista de juegos */
+.gameList {
+  margin-top: 3rem;
+  text-align: left;
+}
+
+.gameList h3 {
+  font-size: 1.5rem;
+  color: #f9fafb;
+  border-bottom: 1px solid #374151;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.no-games {
+  text-align: center;
+  padding: 3rem;
+  background-color: rgba(17, 24, 39, 0.6);
+  border: 1px solid #374151;
+  border-radius: 12px;
+  color: #a0aec0;
+}
+
+.errorMessage {
+  background-color: #5d2222;
+  color: white;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  border-left: 5px solid #ef4444;
+}
+
+/* Estilos para el dropdown de autocompletado */
+.autocompleteWrapper {
+  position: relative;
+}
+
+.autocompleteDropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: #1f2937;
+  border: 1px solid #4b5563;
+  border-radius: 0 0 8px 8px;
+  max-height: 250px;
+  overflow-y: auto;
+  z-index: 1000;
+}
+
+.dropdownItem {
+  padding: 0.75rem 1rem;
+  color: #d1d5db;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.dropdownItem:hover {
+  background-color: #4b5563;
+}

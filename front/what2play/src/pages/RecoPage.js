@@ -2,6 +2,11 @@ import React, { useState, useEffect, useRef } from 'react';
 import { fetchComponents, fetchRecommendations } from '../api/recommendation';
 import GameCard from '../components/GameCard';
 import './styles/RecoPage.css';
+import Header from '../components/Header';
+import Stars from './BackgroundEffects/Stars';
+import FloatingElements from './BackgroundEffects/FloatingElements';
+import homeStyles from './styles/HomePage.module.css'; // Estilos base y de botones
+import recoStyles from './styles/RecoPage.module.css';
 
 const GENRE_OPTIONS = ['Action', 'Adventure', 'RPG', 'Strategy', 'Horror', 'Shooter', 'Indie', 'Simulation', 'Open World', 'Survival'];
 
@@ -127,25 +132,29 @@ const RecoPage = () => {
   };
 
   // Renderizado
-  return (
-    <div className="recommendation-page">
-      <h2>Encuentra juegos para tu PC</h2>
+    return (
+    // Usa el contenedor principal de la home page para el fondo y estilos base
+    <div className={homeStyles.container}>
+      <Stars />
+      <FloatingElements />
+      <Header />
 
-      {error && <div className="error-message">{error}</div>}
+      <div className={recoStyles.recoContent}>
+        <h2>Encuentra juegos para tu PC</h2>
+        <p>Usa nuestro motor de recomendaciones para descubrir juegos perfectamente optimizados para tu hardware.</p>
 
-      <form onSubmit={handleSubmit} className="form">
-        {/* Campo CPU */}
-        <div className="form-group autocomplete">
-          <label>Procesador (CPU)</label>
-          {loading.components ? (
-            <div className="loading-indicator">Cargando procesadores...</div>
-          ) : (
-            <div className="autocomplete-wrapper" ref={cpuDropdownRef}>
-              <input
-                type="text"
-                name="cpu"
-                value={specs.cpu}
-                onChange={handleInputChange}
+        {error && <div className={recoStyles.errorMessage}>{error}</div>}
+
+        <form onSubmit={handleSubmit} className={recoStyles.form}>
+            {/* Campo CPU */}
+            <div className={recoStyles.formGroup}>
+              <label>Procesador (CPU)</label>
+              <div className={recoStyles.autocompleteWrapper} ref={cpuDropdownRef}>
+                <input
+                  type="text"
+                  name="cpu"
+                  value={specs.cpu}
+                  onChange={handleInputChange}
                 onFocus={() => {
                   setDropdownVisibility({ cpu: true, gpu: false });
                   setFilteredComponents(prev => ({ ...prev, cpus: components.cpus }));
@@ -169,12 +178,13 @@ const RecoPage = () => {
                 </div>
               )}
             </div>
-          )}
         </div>
+        
 
         {/* Campo GPU */}
-        <div className="form-group autocomplete">
+        <div className={recoStyles.formGroup}>
           <label>Tarjeta Gráfica (GPU)</label>
+          <div className={recoStyles.autocompleteWrapper} ref={gpuDropdownRef}>
           {loading.components ? (
             <div className="loading-indicator">Cargando tarjetas gráficas...</div>
           ) : (
@@ -209,9 +219,10 @@ const RecoPage = () => {
             </div>
           )}
         </div>
+        </div>
 
         {/* Campo RAM */}
-        <div className="form-group">
+       <div className={recoStyles.formGroup}>
           <label>RAM (GB)</label>
           <input 
             type="number" 
@@ -226,35 +237,31 @@ const RecoPage = () => {
         </div>
 
         {/* Selector de géneros */}
-        <fieldset className="form-group">
+        <fieldset className={recoStyles.formGroup}>
           <legend>Géneros preferidos (opcional)</legend>
-          <div className="genre-checkboxes">
+          <div className={recoStyles.genreCheckboxes}>
             {GENRE_OPTIONS.map((genre) => (
-              <label key={genre} className="checkbox-label">
-                <input
-                  type="checkbox"
-                  value={genre}
-                  onChange={handleGenreChange}
-                  checked={genres.includes(genre)}
-                />
-                <span className="checkbox-custom"></span>
-                {genre}
-              </label>
-            ))}
-          </div>
+                  <label key={genre} className={recoStyles.checkboxLabel}>
+                    <input type="checkbox" value={genre} onChange={handleGenreChange} checked={genres.includes(genre)} />
+                    <span className={recoStyles.checkboxCustom}></span>
+                    {genre}
+                  </label>
+                ))}
+              </div>
         </fieldset>
 
         {/* Botón de submit */}
-        <button 
-          type="submit" 
-          disabled={loading.components || loading.recommendations}
-        >
-          {loading.recommendations ? 'Buscando...' : 'Obtener Recomendaciones'}
-        </button>
-      </form>
+         <button
+              type="submit"
+              className={`${homeStyles.btn} ${homeStyles.btnPrimary}`}
+              disabled={loading.components || loading.recommendations}
+            >
+              {loading.recommendations ? 'Buscando...' : '🎮 Obtener Recomendaciones'}
+            </button>
+        </form>
 
       {/* Resultados */}
-      <div className="game-list">
+      <div className={recoStyles.gameList}>
         {games.length > 0 && (
           <h3>Juegos Compatibles Encontrados: {games.length}</h3>
         )}
@@ -272,6 +279,7 @@ const RecoPage = () => {
         )}
       </div>
     </div>
+     </div>
   );
 };
 
