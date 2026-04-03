@@ -15,7 +15,7 @@ const DELAY = 3000; // 2 segundos de espera entre cada juego
  */
 async function scrapeSteamGames() {
   const browser = await puppeteer.launch({
-    headless: false, // Ponlo en true para que el navegador no sea visible
+    headless: true, 
     args: ['--no-sandbox', '--disable-setuid-sandbox']
   });
   const page = await browser.newPage();

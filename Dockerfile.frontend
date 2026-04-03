@@ -1,0 +1,32 @@
+# Stage 1: Build the React application
+FROM node:18-slim as build
+
+# Set the working directory in the container
+WORKDIR /usr/src/app/front
+
+# Copy package.json and package-lock.json to the working directory
+COPY front/what2play/package*.json ./
+
+# Install dependencies
+RUN npm install
+
+# Copy the rest of the application's source code
+COPY front/what2play/ .
+
+# Build the application for production
+RUN npm run build
+
+# Stage 2: Serve the application with Nginx
+FROM nginx:stable-slim
+
+# Copy the built assets from the 'build' stage
+COPY --from=build /usr/src/app/front/build /usr/share/nginx/html
+
+# Copy a custom Nginx configuration file
+COPY front/what2play/nginx.conf /etc/nginx/conf.d/default.conf
+
+# Expose port 80
+EXPOSE 80
+
+# Start Nginx
+CMD ["nginx", "-g", "daemon off;"]

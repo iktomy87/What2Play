@@ -44,10 +44,17 @@ const runUploadProcess = async () => {
         console.log('✅ Conectado a MongoDB.');
 
         // 1. Cargar la lista de juegos
-        console.log('\n--- Paso 1: Cargando Juegos ---');
-        await Game.deleteMany({}); // Limpia la colección de juegos
-        await Game.insertMany(gamesData);
-        console.log(`👍 ${gamesData.length} juegos insertados en la colección 'games'.`);
+        console.log('\n--- Paso 1: Actualizando Juegos (Upsert) ---');
+        const bulkOps = gamesData.map(game => ({
+            updateOne: {
+                filter: { nombre: game.nombre }, 
+                update: { $set: game },          // Actualiza todos los campos con la info nueva
+                upsert: true                     // Si el juego no existe, lo crea
+            }
+        }));
+
+        const result = await Game.bulkWrite(bulkOps);
+        console.log(`👍 Proceso completado: ${result.upsertedCount} juegos nuevos, ${result.modifiedCount} actualizados.`);
 
         // 2. Procesar y añadir componentes nuevos
         console.log('\n--- Paso 2: Analizando Requisitos y Añadiendo Componentes ---');
