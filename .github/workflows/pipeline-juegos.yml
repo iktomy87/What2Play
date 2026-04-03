@@ -21,7 +21,6 @@ jobs:
       - name: 📦 Instalar dependencias del Backend
         working-directory: ./back
         run: npm install
-
       - name: 🌐 Instalar librerías de sistema para Puppeteer
         - name: 🌐 Instalar librerías de sistema para Puppeteer
         run: |
