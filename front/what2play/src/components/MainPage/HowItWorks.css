@@ -1,0 +1,82 @@
+.wtp-how-section {
+    background: linear-gradient(180deg, #0f0e1f 0%, #0b0b14 100%);
+    padding: 80px 52px;
+    position: relative;
+    overflow: hidden;
+}
+
+.wtp-how-section::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(rgba(255, 255, 255, .025) 1px, transparent 1px);
+    background-size: 28px 28px;
+    pointer-events: none;
+}
+
+.wtp-steps-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+    max-width: 1100px;
+    margin: 40px auto 0;
+    position: relative;
+    z-index: 1;
+}
+
+.wtp-step-card {
+    background: linear-gradient(135deg, rgba(255, 255, 255, .05) 0%, rgba(255, 255, 255, .02) 100%);
+    border: 1px solid rgba(255, 255, 255, .07);
+    border-radius: 18px;
+    padding: 28px 24px;
+    position: relative;
+    overflow: hidden;
+    animation: fadeUp .6s ease both;
+}
+
+.wtp-step-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+}
+
+.wtp-step-card::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(rgba(255, 255, 255, .02) 1px, transparent 1px);
+    background-size: 20px 20px;
+    pointer-events: none;
+}
+
+.wtp-step-num {
+    font-weight: 900;
+    font-size: 38px;
+    line-height: 1;
+    margin-bottom: 18px;
+    color: rgba(255, 255, 255, .06);
+    letter-spacing: -.03em;
+}
+
+.wtp-step-title {
+    font-weight: 800;
+    font-size: 17px;
+    color: #f5f3ff;
+    margin-bottom: 10px;
+    letter-spacing: -.02em;
+    position: relative;
+    z-index: 1;
+}
+
+.wtp-step-desc {
+    font-size: 13px;
+    color: rgba(255, 255, 255, .38);
+    line-height: 1.65;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    position: relative;
+    z-index: 1;
+}

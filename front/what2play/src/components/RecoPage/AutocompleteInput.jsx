@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import recoStyles from '../pages/styles/RecoPage.module.css';
+import recoStyles from '../../pages/styles/RecoPage.module.css';
 
 const AutocompleteInput = ({
   label,

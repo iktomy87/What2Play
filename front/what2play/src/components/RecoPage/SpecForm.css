@@ -1,0 +1,465 @@
+/* ═══════════════════════════════════════════════════════
+   SpecForm — Premium dark glassmorphic form
+   ═══════════════════════════════════════════════════════ */
+
+/* ─── Section ─── */
+.sf-section {
+    position: relative;
+    padding: 80px 32px;
+    overflow: hidden;
+}
+
+/* ─── Background orbs ─── */
+.sf-bg-orb {
+    position: absolute;
+    border-radius: 50%;
+    pointer-events: none;
+    filter: blur(100px);
+    animation: sfPulse 6s ease-in-out infinite;
+}
+
+.sf-bg-orb--purple {
+    width: 420px;
+    height: 420px;
+    background: rgba(124, 92, 252, .10);
+    top: -60px;
+    right: -120px;
+}
+
+.sf-bg-orb--green {
+    width: 320px;
+    height: 320px;
+    background: rgba(34, 197, 94, .06);
+    bottom: -80px;
+    left: -100px;
+    animation-delay: 3s;
+}
+
+/* ─── Inner container ─── */
+.sf-inner {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+/* ─── Header ─── */
+.sf-header {
+    text-align: center;
+    margin-bottom: 32px;
+    animation: sfFadeUp .6s ease both;
+}
+
+.sf-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 16px;
+    background: rgba(124, 92, 252, .12);
+    border: 1px solid rgba(124, 92, 252, .28);
+    border-radius: 100px;
+    padding: 6px 18px;
+    font-size: 11px;
+    font-weight: 700;
+    color: #a78bfa;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    font-family: 'Outfit', sans-serif;
+}
+
+.sf-eyebrow-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #7c5cfc;
+    animation: sfDotPulse 2s ease infinite;
+}
+
+.sf-title {
+    font-weight: 900;
+    font-size: clamp(26px, 4vw, 40px);
+    letter-spacing: -.03em;
+    color: #f5f3ff;
+    margin: 0 0 12px;
+    line-height: 1.15;
+    font-family: 'Outfit', sans-serif;
+}
+
+.sf-title-accent {
+    background: linear-gradient(135deg, #7c5cfc, #a78bfa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.sf-subtitle {
+    font-size: 15px;
+    color: rgba(255, 255, 255, .38);
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    line-height: 1.65;
+    max-width: 460px;
+    margin: 0 auto;
+}
+
+/* ─── Progress Bar ─── */
+.sf-progress-wrap {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 28px;
+    animation: sfFadeUp .6s .08s ease both;
+}
+
+.sf-progress-bar {
+    flex: 1;
+    height: 4px;
+    background: rgba(255, 255, 255, .06);
+    border-radius: 100px;
+    overflow: hidden;
+}
+
+.sf-progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #7c5cfc, #a78bfa);
+    border-radius: 100px;
+    transition: width .4s cubic-bezier(.4, 0, .2, 1);
+}
+
+.sf-progress-label {
+    font-size: 12px;
+    color: rgba(255, 255, 255, .32);
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    white-space: nowrap;
+    letter-spacing: .02em;
+}
+
+/* ─── Card wrapper ─── */
+.sf-card {
+    position: relative;
+    background: linear-gradient(160deg, rgba(255, 255, 255, .05) 0%, rgba(255, 255, 255, .015) 100%);
+    border: 1px solid rgba(255, 255, 255, .07);
+    border-radius: 24px;
+    padding: 36px 32px 32px;
+    overflow: hidden;
+    animation: sfFadeUp .6s .12s ease both;
+}
+
+.sf-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent 5%, rgba(124, 92, 252, .4) 50%, transparent 95%);
+}
+
+.sf-card::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(rgba(255, 255, 255, .018) 1px, transparent 1px);
+    background-size: 22px 22px;
+    pointer-events: none;
+}
+
+.sf-card-glow {
+    position: absolute;
+    top: -80px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 260px;
+    height: 160px;
+    background: radial-gradient(ellipse, rgba(124, 92, 252, .12) 0%, transparent 70%);
+    pointer-events: none;
+    z-index: 0;
+}
+
+/* ─── Loading state ─── */
+.sf-loading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 48px 0;
+    color: rgba(255, 255, 255, .45);
+    font-size: 14px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 500;
+}
+
+.sf-spinner {
+    width: 32px;
+    height: 32px;
+    border: 3px solid rgba(124, 92, 252, .15);
+    border-top-color: #7c5cfc;
+    border-radius: 50%;
+    animation: sfSpin .7s linear infinite;
+}
+
+.sf-spinner--sm {
+    width: 18px;
+    height: 18px;
+    border-width: 2px;
+}
+
+/* ─── Grid ─── */
+.sf-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-bottom: 24px;
+    position: relative;
+    z-index: 1;
+}
+
+@media (max-width: 640px) {
+    .sf-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ─── Field ─── */
+.sf-field {
+    background: rgba(255, 255, 255, .03);
+    border: 1px solid rgba(255, 255, 255, .07);
+    border-radius: 16px;
+    padding: 18px 18px 16px;
+    transition: border-color .25s, background .25s, transform .2s;
+    animation: sfFadeUp .5s ease both;
+    position: relative;
+}
+
+.sf-field:hover {
+    background: rgba(255, 255, 255, .045);
+    border-color: rgba(255, 255, 255, .12);
+}
+
+.sf-field--focused {
+    border-color: var(--field-color, #7c5cfc) !important;
+    background: rgba(124, 92, 252, .04);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 20px rgba(124, 92, 252, .08);
+}
+
+.sf-field--filled {
+    border-color: rgba(255, 255, 255, .12);
+}
+
+/* ─── Field header ─── */
+.sf-field-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.sf-field-icon {
+    width: 34px;
+    height: 34px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: transform .2s;
+}
+
+.sf-field:hover .sf-field-icon {
+    transform: scale(1.05);
+}
+
+.sf-label {
+    font-size: 12px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, .55);
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    font-family: 'Outfit', sans-serif;
+    flex: 1;
+}
+
+.sf-check {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: rgba(34, 197, 94, .15);
+    color: #22c55e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    font-weight: 800;
+    animation: sfPop .3s ease;
+}
+
+/* ─── Select ─── */
+.sf-select-wrap {
+    position: relative;
+}
+
+.sf-select {
+    width: 100%;
+    background: rgba(255, 255, 255, .04);
+    border: 1px solid rgba(255, 255, 255, .08);
+    border-radius: 10px;
+    padding: 11px 38px 11px 14px;
+    color: #e2e0f0;
+    font-size: 13.5px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    outline: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='rgba(255,255,255,.25)' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    transition: border-color .2s, background .2s, box-shadow .2s;
+    cursor: pointer;
+}
+
+.sf-select:focus {
+    border-color: var(--field-color, rgba(124, 92, 252, .5));
+    background-color: rgba(124, 92, 252, .06);
+    box-shadow: 0 0 0 3px rgba(124, 92, 252, .08);
+}
+
+.sf-select option {
+    background: #131320;
+    color: #e2e0f0;
+    padding: 8px;
+}
+
+/* ─── Submit Button ─── */
+.sf-submit {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    background: rgba(255, 255, 255, .06);
+    border: 1px solid rgba(255, 255, 255, .08);
+    border-radius: 14px;
+    padding: 16px 24px;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, .3);
+    cursor: not-allowed;
+    font-family: 'Outfit', sans-serif;
+    letter-spacing: -.01em;
+    transition: all .35s cubic-bezier(.4, 0, .2, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    overflow: hidden;
+}
+
+.sf-submit--ready {
+    background: linear-gradient(135deg, #7c5cfc 0%, #6d28d9 100%);
+    border-color: rgba(124, 92, 252, .5);
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 6px 32px rgba(124, 92, 252, .28), 0 0 0 1px rgba(124, 92, 252, .1);
+}
+
+.sf-submit--ready:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 40px rgba(124, 92, 252, .35), 0 0 0 1px rgba(124, 92, 252, .15);
+}
+
+.sf-submit--ready:active {
+    transform: scale(.985);
+}
+
+.sf-submit:disabled {
+    cursor: not-allowed;
+    transform: none !important;
+    box-shadow: none !important;
+}
+
+.sf-submit-icon {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.sf-submit-arrow {
+    margin-left: 4px;
+    font-size: 16px;
+    transition: transform .2s;
+}
+
+.sf-submit--ready:hover .sf-submit-arrow {
+    transform: translateX(3px);
+}
+
+/* ─── Animations ─── */
+@keyframes sfFadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes sfPulse {
+    0%, 100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    50% {
+        opacity: .6;
+        transform: scale(1.05);
+    }
+}
+
+@keyframes sfDotPulse {
+    0%, 100% {
+        opacity: 1;
+        box-shadow: 0 0 0 0 rgba(124, 92, 252, .4);
+    }
+    50% {
+        opacity: .7;
+        box-shadow: 0 0 0 4px rgba(124, 92, 252, 0);
+    }
+}
+
+@keyframes sfSpin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes sfPop {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    60% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* ─── Responsive ─── */
+@media (max-width: 640px) {
+    .sf-section {
+        padding: 48px 16px;
+    }
+
+    .sf-card {
+        padding: 24px 18px 22px;
+        border-radius: 18px;
+    }
+
+    .sf-field {
+        padding: 14px 14px 12px;
+    }
+}

@@ -3,7 +3,6 @@ import CarouselRow from './CarouselRow';
 import StatItem from './StatItem';
 import { GAMES } from './gamesData';
 import { Link } from 'react-router-dom';
-import logoImage from '../../assets/logo.png';
 import './HeroSection.css';
 
 export default function HeroSection() {
@@ -34,20 +33,6 @@ export default function HeroSection() {
 
       {/* Main content */}
       <div className="hero-content">
-        {/* Logo */}
-        <Link to="/" className="hero-logo-link">
-          <div className="hero-logo-container">
-            <img
-              src={logoImage}
-              alt="What2Play Logo"
-              className="hero-logo-img"
-            />
-          </div>
-        </Link>
-
-        {/* Badge */}
-        <div className="hero-badge"></div>
-
         {/* Title */}
         <h1 className="hero-title">
           Encontrá tu próximo{" "}

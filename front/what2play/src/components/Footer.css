@@ -1,0 +1,31 @@
+.wtp-footer {
+    border-top: 1px solid rgba(255, 255, 255, .05);
+    padding: 28px 52px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+    background: rgba(11, 11, 20, .9);
+}
+
+.wtp-footer-logo {
+    font-weight: 900;
+    font-size: 17px;
+    letter-spacing: -.03em;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.wtp-footer-logo em {
+    font-style: normal;
+    color: #7c5cfc;
+}
+
+.wtp-footer-note {
+    font-size: 12px;
+    color: rgba(255, 255, 255, .2);
+    font-family: 'Nunito Sans', sans-serif;
+}
