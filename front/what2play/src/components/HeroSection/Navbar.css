@@ -1,0 +1,87 @@
+.wtp-nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 52px;
+    height: 66px;
+    background: rgba(11, 11, 20, .88);
+    backdrop-filter: blur(24px);
+    border-bottom: 1px solid rgba(255, 255, 255, .05);
+}
+
+.wtp-logo {
+    font-weight: 900;
+    font-size: 22px;
+    letter-spacing: -.03em;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.wtp-logo-icon {
+    font-size: 20px;
+    margin-right: 2px;
+}
+
+.wtp-logo em {
+    font-style: normal;
+    color: #7c5cfc;
+}
+
+.wtp-nav-links {
+    display: flex;
+    gap: 28px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0%;
+    margin-right: 35%;
+}
+
+.wtp-nav-link {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, .45);
+    cursor: pointer;
+    transition: color .2s;
+    letter-spacing: -.01em;
+}
+
+.wtp-nav-link:hover {
+    color: #fff;
+}
+
+.wtp-nav-cta {
+    background: linear-gradient(135deg, #7c5cfc, #5b3fd8);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 9px 22px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+    transition: opacity .2s, transform .12s;
+    letter-spacing: -.01em;
+}
+
+.wtp-nav-cta:hover {
+    opacity: .88;
+}
+
+.wtp-nav-cta:active {
+    transform: scale(.97);
+}
+
+.wtp-logo-img {
+    height: auto;
+    width: 50%;
+    object-fit: contain;
+}
+
+.wtp-logo {
+    margin-right: 20%;
+}
