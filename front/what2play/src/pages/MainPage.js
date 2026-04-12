@@ -4,6 +4,8 @@ import Stars from './BackgroundEffects/Stars';
 import FloatingElements from './BackgroundEffects/FloatingElements';
 import styles from './styles/HomePage.module.css';
 import Header from '../components/Header';
+import HeroSection from '../components/HeroSection/HeroSection';
+import { Cpu, Zap, Goal } from 'lucide-react';
 
 const HomePage = () => {
   // Funciones de interacción
@@ -36,21 +38,10 @@ const HomePage = () => {
 
   return (
     <div className={styles.container}>
+      <HeroSection />
       <Stars />
       <FloatingElements />
-      <Header />
-  
 
-      <div className={styles.hero}>
-        <h1>Encuentra tu próximo juego perfecto</h1>
-        <p>Recomendaciones personalizadas basadas en tus gustos y las capacidades de tu PC. Descubre experiencias increíbles adaptadas específicamente para ti.</p>
-        
-        <div className={styles.ctaButtons}>
-          <Link to="/recommendations" className={`${styles.btn} ${styles.btnPrimary}`}>
-            🎮 Buscar recomendaciones
-          </Link>
-        </div>
-      </div>
 
       <div className={styles.features}>
         <div className={styles.featureCard} onClick={() => openFeature('ai')}>
@@ -75,23 +66,23 @@ const HomePage = () => {
       <div className={styles.quickStart}>
         <h2>¿Por dónde empezamos?</h2>
         <p>Elige tu enfoque preferido para descubrir juegos increíbles</p>
-        
+
         <div className={styles.quickOptions}>
           <div className={styles.quickOption} onClick={() => quickStart('genre')}>
             <h4>🎯 Por Género</h4>
             <p>Explora por categorías: RPG, FPS, Estrategia, Indie y más</p>
           </div>
-          
+
           <div className={styles.quickOption} onClick={() => quickStart('mood')}>
             <h4>🌟 Por Estado de Ánimo</h4>
             <p>¿Buscas relajarte, competir o vivir aventuras épicas?</p>
           </div>
-          
+
           <div className={styles.quickOption} onClick={() => quickStart('specs')}>
             <h4>🔧 Por Hardware</h4>
             <p>Juegos perfectos para tu configuración específica</p>
           </div>
-          
+
           <div className={styles.quickOption} onClick={() => quickStart('trending')}>
             <h4>🔥 Tendencias</h4>
             <p>Descubre qué está jugando la comunidad ahora mismo</p>
