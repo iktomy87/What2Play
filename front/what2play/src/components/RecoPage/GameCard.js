@@ -1,6 +1,6 @@
 // components/GameCard.js
 import React from 'react';
-import '../pages/styles/GameCard.css'; // Asegúrate de tener los estilos adecuados
+import '../../pages/styles/GameCard.css'; // Asegúrate de tener los estilos adecuados
 
 const GameCard = ({ game }) => {
   // Maneja diferentes nombres de propiedades
