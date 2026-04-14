@@ -6,6 +6,8 @@ const cpuSchema = new mongoose.Schema({
     url: String,
     imagen: String,
     alt_text: String,
+    marca: String,
+    benchmarkScore: Number,
     especificaciones: Object // Usamos 'Object' para flexibilidad
 });
 
@@ -16,6 +18,8 @@ const gpuSchema = new mongoose.Schema({
     imagen: String,
     alt_text: String,
     rating: String,
+    marca: String,
+    benchmarkScore: Number,
     especificaciones: Object
 });
 

@@ -39,7 +39,7 @@ const RecoPage = () => {
           ) : (
             !results.error && (
               <p className="no-games">
-                Completa el formulario para ver qué juegos puedes correr en tu PC.
+                No se encontraron juegos compatibles con tu PC.
               </p>
             )
           )}

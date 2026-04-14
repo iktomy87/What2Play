@@ -1,8 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import "./HowItWorks.css";
 import "./Features.css";
 
 export default function HowItWorks() {
+    const location = useLocation();
+    
+    useEffect(() => {
+        if (location.hash === '#how-it-works') {
+            setTimeout(() => {
+                document.getElementById('how-it-works')?.scrollIntoView({ behavior: 'smooth' });
+            }, 100);
+        }
+    }, [location]);
+
     const steps = [
         { num: "01", title: "Ingresás tus specs", desc: "GPU, CPU, RAM y tipo de almacenamiento. No hace falta registrarse.", accent: "#7c5cfc" },
         { num: "02", title: "Se cruzan los datos", desc: "Cada componente se compara contra los requisitos mínimos y recomendados de cada juego en la base de datos.", accent: "#22c55e" },
@@ -10,7 +21,7 @@ export default function HowItWorks() {
         { num: "04", title: "Ves los resultados", desc: "Los juegos aparecen ordenados de más a menos compatible, agrupados para que tomes la decisión más fácil.", accent: "#e05c2a" },
     ];
     return (
-        <section className="wtp-how-section">
+        <section id="how-it-works" className="wtp-how-section">
             <div style={{ maxWidth: 1100, margin: "0 auto", position: "relative", zIndex: 1 }}>
                 <div style={{ textAlign: "center", marginBottom: 8 }}>
                     <span className="wtp-section-eyebrow">El proceso</span>

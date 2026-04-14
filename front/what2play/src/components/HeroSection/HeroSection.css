@@ -24,7 +24,7 @@
   position: relative;
   width: 100%;
   min-height: 500px;
-  background: #08080f;
+  background: rgba(8, 8, 15, 0.2);
   border-radius: 20px;
   overflow: hidden;
   display: flex;

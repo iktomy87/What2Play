@@ -1,11 +1,12 @@
 import React from "react";
+import { Monitor, Zap, Target } from "lucide-react";
 import "./Features.css";
 
 export default function Features() {
     const items = [
-        { icon: "🖥️", color: "#7c5cfc", bg: "rgba(124,92,252,.18)", title: "Análisis de Hardware", desc: "Ingresás tu GPU, CPU, RAM y almacenamiento. El sistema mapea cada componente contra los requisitos reales de cada juego.", delay: 0 },
-        { icon: "⚡", color: "#f59e0b", bg: "rgba(245,158,11,.18)", title: "Compatibilidad Exacta", desc: "El algoritmo calcula un porcentaje de compatibilidad real ponderando cada componente para que sepas exactamente qué te espera.", delay: .1 },
-        { icon: "🎯", color: "#22c55e", bg: "rgba(34,197,94,.18)", title: "Resultados Ordenados", desc: "Los juegos se presentan de mayor a menor compatibilidad, agrupados en categorías claras: corre perfecto, con ajustes, o muy exigente.", delay: .2 },
+        { icon: <Monitor size={22} color="#7c5cfc" />, color: "#7c5cfc", bg: "rgba(124,92,252,.18)", title: "Análisis de Hardware", desc: "Ingresás tu GPU, CPU, RAM y almacenamiento. El sistema mapea cada componente contra los requisitos reales de cada juego.", delay: 0 },
+        { icon: <Zap size={22} color="#f59e0b" />, color: "#f59e0b", bg: "rgba(245,158,11,.18)", title: "Compatibilidad Exacta", desc: "El algoritmo calcula un porcentaje de compatibilidad real ponderando cada componente para que sepas exactamente qué te espera.", delay: .1 },
+        { icon: <Target size={22} color="#22c55e" />, color: "#22c55e", bg: "rgba(34,197,94,.18)", title: "Resultados Ordenados", desc: "Los juegos se presentan de mayor a menor compatibilidad, agrupados en categorías claras: corre perfecto, con ajustes, o muy exigente.", delay: .2 },
     ];
     return (
         <section className="wtp-features">

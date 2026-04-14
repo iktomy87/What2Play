@@ -32,35 +32,7 @@ const parseRam = (ramString) => {
     return match ? parseInt(match[0], 10) : 0;
 };
 
-/**
- * Extrae el número de modelo clave de un nombre de componente.
- * Esta es la función clave para la nueva lógica.
- * @param {string} name - El nombre completo del componente.
- * @returns {string|null} - El número de modelo (ej: "i5-750", "GTX 1060") o null.
- */
-const extractModel = (name) => {
-    if (!name) return null;
-    // Patrones para encontrar diferentes tipos de modelos de CPU y GPU
-    const patterns = [
-        /(i\d[- ]?\d{3,}\w?)/,      // Intel Core (i5-750, i7 8700K)
-        /(GTX|RTX)[- ]?\d{3,}\w?/, // NVIDIA GeForce (GTX 1060, RTX 3080)
-        /Ryzen[- ]?\d[- ]?\d{4}\w?/, // AMD Ryzen (Ryzen 5 1600X)
-        /FX[- ]?\d{4}/,            // AMD FX (FX-6300)
-        /RX[- ]?\d{3,}\w?/          // AMD Radeon (RX 580)
-    ];
-
-    for (const pattern of patterns) {
-        const match = name.match(pattern);
-        if (match) {
-            // Reemplaza espacios por un patrón que acepta espacio o guion para más flexibilidad
-            return match[0].replace(/\s+/g, '[- ]?');
-        }
-    }
-    return null; // Si no encuentra un patrón conocido, no se puede buscar
-};
-
-
-// --- Endpoint de Recomendaciones Corregido ---
+// --- Endpoint de Recomendaciones (Evolucionado Matemáticamente) ---
 router.post('/recommendations', async (req, res) => {
     try {
         const { cpu, gpu, ram, genres = [] } = req.body;
@@ -69,36 +41,37 @@ router.post('/recommendations', async (req, res) => {
             return res.status(400).json({ success: false, message: 'CPU, GPU y RAM son requeridos' });
         }
 
-        // 1. Extraer los modelos clave de los componentes seleccionados
-        const cpuModel = extractModel(cpu);
-        const gpuModel = extractModel(gpu);
+        // Helper para escapar regex
+        const escapeRegex = (string) => string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        
+        const cpuRegex = new RegExp('^' + escapeRegex(cpu.trim()) + '$', 'i');
+        const gpuRegex = new RegExp('^' + escapeRegex(gpu.trim()) + '$', 'i');
 
-        // Si no se pudo extraer un modelo, no se puede hacer una búsqueda fiable
-        if (!cpuModel || !gpuModel) {
+        // 1. Obtener los Score de benchmarks reales del usuario en la BD de componentes
+        const userCpu = await Cpu.findOne({ nombre: { $regex: cpuRegex } });
+        const userGpu = await Gpu.findOne({ nombre: { $regex: gpuRegex } });
+
+        // Si mandaron un string alterado, renegamos la request.
+        if (!userCpu || !userGpu) {
             return res.status(400).json({ 
                 success: false, 
-                message: 'No se pudo identificar el modelo de los componentes seleccionados.' 
+                message: 'No se pudo identificar el poder de los componentes seleccionados.' 
             });
         }
 
-        const cpuPattern = new RegExp(cpuModel, 'i');
-        const gpuPattern = new RegExp(gpuModel, 'i');
+        const cpuPower = userCpu.benchmarkScore || 0;
+        const gpuPower = userGpu.benchmarkScore || 0;
 
-        // 2. Construir la consulta a MongoDB
+        // 2. Construir la consulta a MongoDB 
+        // $gt: 0 excluye juegos donde el parser no pudo determinar requisitos (score = 0)
+        // $lte: userPower filtra juegos que el hardware del usuario puede correr
         const query = {
-            $and: [
-                { 'requisitos_minimos.Processor': { $regex: cpuPattern } },
-                {
-                    $or: [
-                        { 'requisitos_minimos.Graphics': { $regex: gpuPattern } },
-                        { 'requisitos_minimos.Video': { $regex: gpuPattern } }
-                    ]
-                }
-            ]
+            cpuScore: { $gt: 0, $lte: cpuPower },
+            gpuScore: { $gt: 0, $lte: gpuPower }
         };
 
         if (genres.length > 0) {
-            query.$and.push({ generos: { $in: genres } });
+            query.generos = { $in: genres };
         }
 
         const gamesFromDB = await Game.find(query).limit(200).lean();

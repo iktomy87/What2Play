@@ -12,10 +12,10 @@ import Footer from '../components/Footer';
 const HomePage = () => {
   return (
     <div className={styles.container}>
+      <Stars />
       <Navbar />
 
       <HeroSection />
-      <Stars />
 
       <Features />
       <HowItWorks />
