@@ -13,9 +13,9 @@ export default function Navbar({ onStart }) {
       </div>
       <div className="wtp-nav-links">
         <Link to="/" className="wtp-nav-link" style={{ textDecoration: 'none' }}>Inicio</Link>
-        <Link 
-          to="/#how-it-works" 
-          className="wtp-nav-link" 
+        <Link
+          to="/#how-it-works"
+          className="wtp-nav-link"
           style={{ textDecoration: 'none' }}
           onClick={(e) => {
             if (window.location.pathname === '/' || window.location.pathname === '') {
@@ -27,7 +27,9 @@ export default function Navbar({ onStart }) {
           Cómo funciona
         </Link>
       </div>
-      <button className="wtp-nav-cta" onClick={onStart}>Analizar mi PC</button>
+      <Link to="/recommendations">
+        <button className="wtp-nav-cta" onClick={onStart}>Analizar mi PC</button>
+      </Link>
     </nav>
   );
 }
