@@ -1,3 +1,4 @@
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) 
 # What2Play 🎮
 
 What2Play es una plataforma de recomendación de videojuegos y hardware inteligente. Su objetivo es permitir a los usuarios descubrir a qué juegos pueden jugar basándose en los componentes reales de su computadora (CPU, GPU, RAM, etc.), utilizando un sistema automatizado de puntuación de hardware basado en benchmarks comprobados.
