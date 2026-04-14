@@ -3,6 +3,12 @@
 
 What2Play es una plataforma de recomendación de videojuegos y hardware inteligente. Su objetivo es permitir a los usuarios descubrir a qué juegos pueden jugar basándose en los componentes reales de su computadora (CPU, GPU, RAM, etc.), utilizando un sistema automatizado de puntuación de hardware basado en benchmarks comprobados.
 
+## ¿De dónde surgió la idea?
+
+What2Play nació de una observación frecuente en foros de videojuegos: muchos usuarios con computadoras antiguas o de bajos recursos publicaban las especificaciones de sus equipos pidiendo recomendaciones sobre qué podían jugar. Al no conocer con certeza el límite de su hardware, dependían de la buena voluntad de la comunidad. Aunque algunos miembros intentaban ayudar, las respuestas a menudo eran imprecisas o terminaban en bromas del estilo "con suerte te corre el Buscaminas".
+
+Al ver esta necesidad recurrente, me planteé una pregunta clave: ¿Existe una forma de facilitar este proceso? ¿Una plataforma que analice el equipo y ofrezca recomendaciones automáticamente y de forma precisa? Así fue como decidí darle vida a este proyecto.
+
 ## 🏗️ Arquitectura de la Aplicación
 
 El proyecto está dividido en dos partes principales: un **Frontend** moderno en React que proporciona una experiencia de usuario interactiva y fluida, y un **Backend** robusto en Node.js que maneja la extracción constante de datos, cruce de componentes difusos y comunicación con la base de datos MongoDB.
